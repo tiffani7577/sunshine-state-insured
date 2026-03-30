@@ -55,14 +55,14 @@ export default function Header() {
               )}
             </nav>
 
-            {/* Mobile: phone + hamburger */}
+            {/* Mobile: quote link + hamburger */}
             <div className="flex items-center gap-3 lg:hidden">
-              <a href="tel:+18005551234" className="flex items-center gap-1.5 text-teal-700 font-semibold text-sm">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                </svg>
-                Call Now
-              </a>
+              <Link
+                href="/get-a-quote"
+                className="flex items-center gap-1.5 text-coral-500 font-semibold text-sm"
+              >
+                Get a Quote
+              </Link>
               <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-gray-600" aria-label="Toggle menu">
                 {menuOpen ? (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
@@ -91,22 +91,25 @@ export default function Header() {
         )}
       </header>
 
-      {/* Sticky mobile bottom CTA bar */}
+      {/* Sticky mobile bottom CTA bar — both buttons go to quote form */}
       <div className="mobile-cta-bar">
-        <a
-          href="tel:+18005551234"
-          className="flex-1 flex items-center justify-center gap-2 bg-white text-teal-800 font-bold py-2.5 rounded-lg text-sm cta-pulse"
+        <Link
+          href="/get-a-quote"
+          className="flex-1 flex items-center justify-center gap-2 bg-white text-teal-800 font-bold py-2.5 rounded-lg text-sm"
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+            <rect x="9" y="3" width="6" height="4" rx="1"/>
+            <line x1="9" y1="12" x2="15" y2="12"/>
+            <line x1="9" y1="16" x2="13" y2="16"/>
           </svg>
-          Call Now
-        </a>
+          Free Quote
+        </Link>
         <Link
           href="/get-a-quote"
           className="flex-1 flex items-center justify-center gap-2 bg-coral-500 text-white font-bold py-2.5 rounded-lg text-sm"
         >
-          Get Free Quote
+          Get Help Now
         </Link>
       </div>
     </>

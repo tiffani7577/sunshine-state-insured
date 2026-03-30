@@ -40,15 +40,7 @@ export default function Footer() {
             <p className="text-teal-200 text-sm leading-relaxed">
               Real answers for Florida homeowners navigating the state's home insurance crisis.
             </p>
-            <a
-              href="tel:+18005551234"
-              className="mt-4 inline-flex items-center gap-2 text-white font-semibold text-sm hover:text-teal-300 transition-colors"
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-              </svg>
-              (800) 555-1234
-            </a>
+
           </div>
 
           {/* Guides */}
@@ -82,7 +74,7 @@ export default function Footer() {
           {/* CTA */}
           <div>
             <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Get Help Now</h4>
-            <p className="text-teal-200 text-sm mb-4">Speak with a licensed Florida insurance specialist today.</p>
+            <p className="text-teal-200 text-sm mb-4">Connect with a licensed Florida insurance specialist today.</p>
             <Link
               href="/get-a-quote"
               className="block text-center bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 px-6 rounded-lg text-sm transition-colors mb-3"
@@ -103,7 +95,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Sunshine State Insured. All rights reserved.
           </p>
           <p className="text-teal-500 text-xs max-w-xl">
-            <strong className="text-teal-400">Disclaimer:</strong> Sunshine State Insured is an informational resource and lead referral service. We are not a licensed insurance agency. Information provided is for educational purposes only. Always consult a licensed Florida insurance agent before making coverage decisions.
+            <strong className="text-teal-400">Disclaimer:</strong> This site is for informational purposes only. We are not licensed insurance agents and do not sell insurance. We connect consumers with licensed insurance professionals. Always consult a licensed Florida insurance agent before making coverage decisions.
           </p>
         </div>
       </div>

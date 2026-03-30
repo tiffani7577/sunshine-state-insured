@@ -43,7 +43,6 @@ export default function ArticleLayout({
     description: 'Florida home insurance guidance and lead referral service',
     url: 'https://www.sunshinestateinsured.com',
     areaServed: { '@type': 'State', name: 'Florida' },
-    telephone: '+18005551234',
   }
 
   return (
@@ -83,15 +82,7 @@ export default function ArticleLayout({
             )}
             {/* Mobile CTA above fold */}
             <div className="mt-6 flex flex-col sm:flex-row gap-3 md:hidden">
-              <a
-                href="tel:+18005551234"
-                className="flex items-center justify-center gap-2 bg-white text-teal-800 font-bold py-3 px-6 rounded-lg text-sm"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                </svg>
-                Call a Specialist
-              </a>
+
               <Link
                 href="/get-a-quote"
                 className="flex items-center justify-center bg-coral-500 text-white font-bold py-3 px-6 rounded-lg text-sm"
@@ -155,17 +146,14 @@ export default function ArticleLayout({
             <div className="hidden lg:block">
               <QuoteForm variant="sidebar" />
               <div className="mt-6 bg-teal-800 text-white rounded-2xl p-5">
-                <p className="font-serif text-lg mb-2">Need to talk now?</p>
-                <p className="text-teal-200 text-sm mb-4">Our specialists handle Florida home insurance exclusively.</p>
-                <a
-                  href="tel:+18005551234"
-                  className="flex items-center justify-center gap-2 bg-white text-teal-800 font-bold py-3 rounded-lg text-sm w-full hover:bg-teal-50 transition-colors"
+                <p className="font-serif text-lg mb-2">Ready to get covered?</p>
+                <p className="text-teal-200 text-sm mb-4">Get matched with a licensed Florida insurance specialist — no obligation.</p>
+                <Link
+                  href="/get-a-quote"
+                  className="flex items-center justify-center gap-2 bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 rounded-lg text-sm w-full transition-colors"
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                  </svg>
-                  (800) 555-1234
-                </a>
+                  Get a Free Quote
+                </Link>
               </div>
             </div>
           </div>
