@@ -1,0 +1,112 @@
+import Link from 'next/link'
+
+const guides = [
+  { href: '/why-is-florida-home-insurance-so-expensive', label: 'Why Is Insurance So Expensive?' },
+  { href: '/citizens-insurance-vs-private-market-florida', label: 'Citizens vs Private Market' },
+  { href: '/home-insurance-dropped-by-carrier-florida', label: 'Dropped by Your Carrier?' },
+  { href: '/home-insurance-with-roof-over-15-years-florida', label: 'Roof Over 15 Years Old' },
+  { href: '/home-insurance-after-hurricane-claim-florida', label: 'After a Hurricane Claim' },
+  { href: '/how-to-lower-home-insurance-premium-florida', label: 'Lower Your Premium' },
+]
+
+const coverage = [
+  { href: '/flood-insurance-broward-county', label: 'Flood Insurance Broward County' },
+  { href: '/wind-mitigation-inspection-fort-lauderdale', label: 'Wind Mitigation Inspections' },
+  { href: '/what-does-windstorm-deductible-mean-florida', label: 'Windstorm Deductibles Explained' },
+  { href: '/do-i-need-flood-insurance-if-not-in-flood-zone-florida', label: 'Flood Insurance Outside Flood Zones' },
+  { href: '/condo-insurance-vs-homeowners-florida', label: 'Condo vs Homeowners Insurance' },
+  { href: '/cheapest-home-insurance-fort-lauderdale', label: 'Cheapest Home Insurance Fort Lauderdale' },
+]
+
+export default function Footer() {
+  return (
+    <footer className="bg-teal-900 text-white mt-20">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+          {/* Brand */}
+          <div className="md:col-span-1">
+            <div className="flex items-center gap-2 mb-4">
+              <div className="w-8 h-8 bg-teal-600 rounded-lg flex items-center justify-center">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+              </div>
+              <div>
+                <span className="font-serif text-base text-white leading-none block">Sunshine State</span>
+                <span className="text-xs font-medium text-teal-300 tracking-widest uppercase leading-none">Insured</span>
+              </div>
+            </div>
+            <p className="text-teal-200 text-sm leading-relaxed">
+              Real answers for Florida homeowners navigating the state's home insurance crisis.
+            </p>
+            <a
+              href="tel:+18005551234"
+              className="mt-4 inline-flex items-center gap-2 text-white font-semibold text-sm hover:text-teal-300 transition-colors"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              (800) 555-1234
+            </a>
+          </div>
+
+          {/* Guides */}
+          <div>
+            <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Florida Insurance Guides</h4>
+            <ul className="space-y-2">
+              {guides.map(link => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Coverage */}
+          <div>
+            <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Coverage Topics</h4>
+            <ul className="space-y-2">
+              {coverage.map(link => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* CTA */}
+          <div>
+            <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Get Help Now</h4>
+            <p className="text-teal-200 text-sm mb-4">Speak with a licensed Florida insurance specialist today.</p>
+            <Link
+              href="/get-a-quote"
+              className="block text-center bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 px-6 rounded-lg text-sm transition-colors mb-3"
+            >
+              Get a Free Quote
+            </Link>
+            <Link
+              href="/best-home-insurance-companies-florida-2026"
+              className="block text-center border border-teal-500 text-teal-200 hover:text-white hover:border-white py-2.5 px-6 rounded-lg text-sm transition-colors"
+            >
+              Compare Companies
+            </Link>
+          </div>
+        </div>
+
+        <div className="border-t border-teal-800 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+          <p className="text-teal-400 text-xs">
+            © {new Date().getFullYear()} Sunshine State Insured. All rights reserved.
+          </p>
+          <p className="text-teal-500 text-xs max-w-xl">
+            <strong className="text-teal-400">Disclaimer:</strong> Sunshine State Insured is an informational resource and lead referral service. We are not a licensed insurance agency. Information provided is for educational purposes only. Always consult a licensed Florida insurance agent before making coverage decisions.
+          </p>
+        </div>
+      </div>
+    </footer>
+  )
+}
