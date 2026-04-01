@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
   verification: {
-    google: 'REPLACE_WITH_GSC_VERIFICATION_CODE',
+    google: 'vPCH1Noq7VjxZkZ06GA_U9bi4yskM_riH-ll-0DT2XI',
   },
 }
 
