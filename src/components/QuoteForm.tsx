@@ -1,37 +1,24 @@
 "use client"
-import { useState } from 'react'
 
 interface QuoteFormProps {
   variant?: 'sidebar' | 'inline' | 'hero'
   title?: string
 }
 
+function isOpen(): boolean {
+  const now = new Date()
+  const utc = now.getTime() + now.getTimezoneOffset() * 60000
+  const est = new Date(utc + (-5 * 60) * 60000)
+  const day = est.getDay()
+  const t = est.getHours() * 60 + est.getMinutes()
+  if (day >= 1 && day <= 5) return t >= 540 && t < 1260
+  if (day === 6) return t >= 720 && t < 1020
+  return false
+}
+
 export default function QuoteForm({ variant = 'sidebar', title }: QuoteFormProps) {
-  const [submitted, setSubmitted] = useState(false)
-  const [loading, setLoading] = useState(false)
-  const [form, setForm] = useState({
-    name: '', email: '', phone: '', zip: '', propertyType: '', message: ''
-  })
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    setForm({ ...form, [e.target.name]: e.target.value })
-  }
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setLoading(true)
-    // Store submission with timestamp
-    const submission = { ...form, timestamp: new Date().toISOString(), source: window.location.pathname }
-    const existing = JSON.parse(localStorage.getItem('ssi_leads') || '[]')
-    existing.push(submission)
-    localStorage.setItem('ssi_leads', JSON.stringify(existing))
-    await new Promise(r => setTimeout(r, 800))
-    setLoading(false)
-    setSubmitted(true)
-    window.location.href = '/thank-you'
-  }
-
-  const formTitle = title || 'Get Your Free Florida Home Insurance Quote'
+  const open = isOpen()
+  const formTitle = title || 'Get Free Florida Home Insurance Information'
 
   const baseClasses = variant === 'hero'
     ? 'bg-white rounded-2xl shadow-2xl p-6 sm:p-8'
@@ -42,69 +29,31 @@ export default function QuoteForm({ variant = 'sidebar', title }: QuoteFormProps
   return (
     <div className={baseClasses}>
       <h3 className="font-serif text-xl text-teal-800 mb-1">{formTitle}</h3>
-      <p className="text-sm text-gray-500 mb-5">A licensed Florida specialist will contact you within 1 business hour.</p>
+      <p className="text-sm text-gray-500 mb-5">
+        {open
+          ? 'Specialists available now. Call for free Florida home insurance information — no obligation.'
+          : 'Call during business hours for free Florida home insurance information. No obligation.'}
+      </p>
 
-      {submitted ? (
-        <div className="text-center py-4">
-          <div className="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-3">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0f766e" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-              <polyline points="20 6 9 17 4 12"/>
-            </svg>
-          </div>
-          <p className="font-semibold text-teal-800">You're all set!</p>
-          <p className="text-sm text-gray-500 mt-1">Redirecting you now...</p>
-        </div>
-      ) : (
-        <form onSubmit={handleSubmit} className="space-y-3">
-          <input
-            type="text" name="name" required placeholder="Full Name"
-            value={form.name} onChange={handleChange}
-            className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-          />
-          <input
-            type="email" name="email" required placeholder="Email Address"
-            value={form.email} onChange={handleChange}
-            className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-          />
-          <input
-            type="tel" name="phone" required placeholder="Phone Number"
-            value={form.phone} onChange={handleChange}
-            className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-          />
-          <input
-            type="text" name="zip" required placeholder="ZIP Code" maxLength={5}
-            value={form.zip} onChange={handleChange}
-            className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-          />
-          <select
-            name="propertyType" required value={form.propertyType} onChange={handleChange}
-            className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent bg-white"
-          >
-            <option value="">Property Type</option>
-            <option value="single-family">Single Family Home</option>
-            <option value="condo">Condo / Townhouse</option>
-            <option value="mobile-home">Mobile / Manufactured Home</option>
-            <option value="rental">Rental Property</option>
-            <option value="other">Other</option>
-          </select>
-          <button
-            type="submit" disabled={loading}
-            className="w-full bg-coral-500 hover:bg-coral-600 disabled:opacity-70 text-white font-bold py-3 rounded-lg text-sm transition-colors flex items-center justify-center gap-2"
-          >
-            {loading ? (
-              <>
-                <svg className="animate-spin" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
-                </svg>
-                Submitting...
-              </>
-            ) : 'Get My Free Quote →'}
-          </button>
-          <p className="text-xs text-gray-400 text-center">No spam. No obligation. Florida specialists only.</p>
-          <p className="text-xs text-gray-400 text-center mt-1">By submitting, I provide my signature and expressly consent to be contacted by licensed insurance agents via phone, SMS, or email at the number/address provided, even if on a Do Not Call list. Consent is not required to purchase.</p>
-          <p className="text-xs text-gray-400 text-center mt-1">Surplus lines insurers' policy rates and forms are not approved by any Florida regulatory agency. By clicking, you acknowledge you are seeking quotes from the total available market.</p>
-        </form>
-      )}
+      <div className="flex items-center gap-2 mb-3">
+        <div className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${open ? 'bg-green-500 animate-pulse' : 'bg-gray-400'}`} />
+        <span className={`text-xs font-semibold ${open ? 'text-green-700' : 'text-gray-500'}`}>
+          {open ? 'Available Now' : 'Currently Closed'}
+        </span>
+      </div>
+
+      <a
+        href="tel:+14356121009"
+        className="flex items-center justify-center gap-2 w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3.5 rounded-lg text-base transition-colors"
+      >
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.81a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        (435) 612-1009
+      </a>
+
+      <p className="text-xs text-gray-400 text-center mt-3">Mon–Fri 9am–9pm · Sat 12pm–5pm EST</p>
+      <p className="text-xs text-gray-400 text-center mt-1">Free information. No obligation. No spam.</p>
     </div>
   )
 }
