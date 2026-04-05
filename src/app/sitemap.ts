@@ -20,6 +20,9 @@ const pages = [
   { url: '/how-to-lower-home-insurance-premium-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/best-home-insurance-companies-florida-2026', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/new-homeowner-insurance-florida-first-time-buyer', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/hurricane-insurance-claims-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/affordable-home-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/home-insurance-after-cancellation-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/get-a-quote', priority: 0.8, changeFrequency: 'monthly' as const },
 ]
 
