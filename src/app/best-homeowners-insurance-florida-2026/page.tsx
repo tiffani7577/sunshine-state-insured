@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata: Metadata = {
-  title: 'Best Homeowners Insurance in Florida for 2026 | Sunshine State Insured',
+  title: 'Best Homeowners Insurance Florida 2026 | Top Carriers',
   description: 'Compare the best Florida homeowners insurance companies for 2026. Real rate data, carrier reviews, and expert guidance for Florida homeowners.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/best-homeowners-insurance-florida-2026' },
 }

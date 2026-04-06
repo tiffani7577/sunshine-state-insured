@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Hurricane Insurance Claims Florida | How to File & Maximize Your Payout',
+  title: 'Hurricane Insurance Claims Florida | File & Maximize Payout',
   description: 'Step-by-step guide to filing a hurricane insurance claim in Florida. Learn what to document, how to avoid claim denials, and when to hire a public adjuster.',
   keywords: ['hurricane insurance claims Florida', 'file hurricane claim Florida', 'hurricane damage insurance Florida', 'Florida hurricane claim denied', 'public adjuster Florida hurricane'],
   openGraph: {
-    title: 'Hurricane Insurance Claims Florida | How to File & Maximize Your Payout',
+    title: 'Hurricane Insurance Claims Florida | File & Maximize Payout',
     description: 'Step-by-step guide to filing a hurricane insurance claim in Florida.',
     url: 'https://www.sunshinestateinsured.com/hurricane-insurance-claims-florida',
   },

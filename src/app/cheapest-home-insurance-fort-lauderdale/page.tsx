@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata: Metadata = {
-  title: 'Cheapest Home Insurance in Fort Lauderdale, FL (2026 Rates & Companies)',
+  title: 'Cheapest Home Insurance Fort Lauderdale FL | 2026 Rates',
   description: 'Find the cheapest home insurance in Fort Lauderdale for 2026. Real rate comparisons, top carriers, and the discounts most homeowners miss.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/cheapest-home-insurance-fort-lauderdale' },
 }

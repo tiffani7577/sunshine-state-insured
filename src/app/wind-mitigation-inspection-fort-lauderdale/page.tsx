@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
 export const metadata: Metadata = {
-  title: 'Wind Mitigation Inspection Fort Lauderdale: Save Up to $2,000/Year (2026)',
+  title: 'Wind Mitigation Inspection Fort Lauderdale | Save Up to 45%',
   description: 'A wind mitigation inspection in Fort Lauderdale costs $150-$200 and can save you $500-$2,000 per year on your home insurance. Here\'s everything you need to know.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/wind-mitigation-inspection-fort-lauderdale' },
 }
