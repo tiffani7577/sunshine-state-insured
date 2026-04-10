@@ -137,15 +137,25 @@ const stats = [
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
+  '@type': 'InsuranceAgency',
   name: 'Sunshine State Insured',
-  description: 'Florida home insurance guidance and lead referral service serving Broward County and all of Florida',
+  description: 'Florida home insurance guidance and lead referral service serving Broward County and all of Florida.',
   url: 'https://www.sunshinestateinsured.com',
-  areaServed: [
-    { '@type': 'State', name: 'Florida' },
-    { '@type': 'County', name: 'Broward County' },
-    { '@type': 'City', name: 'Fort Lauderdale' },
-  ],
+  telephone: '(435) 612-1009',
+  email: 'info@sunshinestateinsured.com',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Fort Lauderdale',
+    addressRegion: 'FL',
+    addressCountry: 'US',
+  },
+  areaServed: {
+    '@type': 'State',
+    name: 'Florida',
+    sameAs: 'https://en.wikipedia.org/wiki/Florida',
+  },
+  priceRange: '$$',
+  sameAs: ['https://www.sunshinestateinsured.com'],
 }
 
 export default function HomePage() {
