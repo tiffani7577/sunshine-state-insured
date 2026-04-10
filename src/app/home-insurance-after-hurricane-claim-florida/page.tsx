@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance After a Hurricane Claim in Florida (2026 Guide)',
-  description: 'Filed a hurricane claim in Florida? Here\'s what happens to your insurance, whether you\'ll be dropped, and how to protect your coverage after a claim.',
+  title: 'Home Insurance After Hurricane Claim Florida',
+  description: 'How to navigate Florida home insurance after filing a hurricane claim. What carriers look for and how to protect your coverage.'s what happens to your insurance, whether you\'ll be dropped, and how to protect your coverage after a claim.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-after-hurricane-claim-florida' },
+  openGraph: {
+    title: 'Home Insurance After Hurricane Claim Florida',
+    description: 'Navigate Florida home insurance after a hurricane claim. What carriers look for and how to protect your coverage.',
+    url: 'https://www.sunshinestateinsured.com/home-insurance-after-hurricane-claim-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance After Hurricane Claim Florida' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

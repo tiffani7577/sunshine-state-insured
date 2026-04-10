@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'What Does Windstorm Deductible Mean in Florida? (2026 Guide)',
-  description: 'Florida\'s windstorm deductible is different from your regular deductible — and it can cost you tens of thousands of dollars if you don\'t understand it. Here\'s exactly how it works.',
+  title: 'Windstorm Deductible Florida: What It Means',
+  description: 'What does a windstorm deductible mean in Florida? Learn how it works, how it's calculated, and how it differs from your standard deductible.'s windstorm deductible is different from your regular deductible — and it can cost you tens of thousands of dollars if you don\'t understand it. Here\'s exactly how it works.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/what-does-windstorm-deductible-mean-florida' },
+  openGraph: {
+    title: 'Windstorm Deductible Florida: What It Means',
+    description: 'What does a windstorm deductible mean in Florida? How it works, how it's calculated, and how it differs from standard.',
+    url: 'https://www.sunshinestateinsured.com/what-does-windstorm-deductible-mean-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Windstorm Deductible Florida: What It Means' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

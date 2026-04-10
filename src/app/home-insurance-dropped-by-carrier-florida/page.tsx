@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance Dropped by Carrier in Florida: What to Do Next (2026)',
-  description: 'Got a non-renewal notice from your Florida home insurance carrier? Here\'s exactly what to do, your legal rights, and how to find new coverage fast.',
+  title: 'Home Insurance Dropped by Carrier Florida',
+  description: 'Dropped by your Florida home insurance carrier? Here's exactly what to do next — including Citizens, surplus lines, and new carrier options.'s exactly what to do, your legal rights, and how to find new coverage fast.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-dropped-by-carrier-florida' },
+  openGraph: {
+    title: 'Home Insurance Dropped by Carrier Florida',
+    description: 'Dropped by your Florida home insurance carrier? Here's what to do next — Citizens, surplus lines, and new options.',
+    url: 'https://www.sunshinestateinsured.com/home-insurance-dropped-by-carrier-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance Dropped by Carrier Florida' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

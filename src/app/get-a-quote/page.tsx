@@ -4,9 +4,18 @@ import QuoteForm from '@/components/QuoteForm'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Get a Free Florida Home Insurance Quote — Sunshine State Insured',
-  description: 'Get a free, no-obligation Florida home insurance quote. We compare rates from top Florida carriers and find the best coverage for your home.',
+  title: 'Get a Free Florida Home Insurance Quote',
+  description: 'Get a free Florida home insurance quote today. Speak with a licensed specialist about your coverage options — no obligation.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/get-a-quote' },
+  openGraph: {
+    title: 'Get a Free Florida Home Insurance Quote',
+    description: 'Get a free Florida home insurance quote. Speak with a licensed specialist about your coverage options — no obligation.',
+    url: 'https://www.sunshinestateinsured.com/get-a-quote',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Get a Free Florida Home Insurance Quote' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 export default function GetAQuotePage() {

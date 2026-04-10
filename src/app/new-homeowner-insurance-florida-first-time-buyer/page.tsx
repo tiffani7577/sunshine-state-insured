@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance for Florida First-Time Buyers: Complete 2026 Guide',
-  description: 'Buying your first home in Florida? Home insurance here is unlike anywhere else in the country. Here\'s everything you need to know before you close.',
+  title: 'Home Insurance Florida First-Time Buyers 2026',
+  description: 'First-time homebuyer guide to Florida home insurance. What to buy, what to skip, and how to find affordable coverage in a tough market.'s everything you need to know before you close.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/new-homeowner-insurance-florida-first-time-buyer' },
+  openGraph: {
+    title: 'Home Insurance Florida First-Time Buyers 2026',
+    description: 'First-time homebuyer guide to Florida home insurance. What to buy, what to skip, and how to find affordable coverage.',
+    url: 'https://www.sunshinestateinsured.com/new-homeowner-insurance-florida-first-time-buyer',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance Florida First-Time Buyers 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

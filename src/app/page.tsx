@@ -6,9 +6,18 @@ import QuoteForm from '@/components/QuoteForm'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Sunshine State Insured | Florida Home Insurance Help & Quotes',
-  description: 'Florida homeowners: get real answers about the insurance crisis, Citizens Insurance alternatives, windstorm coverage, and flood insurance. Serving Broward County and all of Florida.',
+  title: 'Florida Home Insurance Help & Quotes',
+  description: 'Real answers for Florida homeowners on the insurance crisis, Citizens Insurance, windstorm, flood, and more. Free information from licensed specialists.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com' },
+  openGraph: {
+    title: 'Florida Home Insurance Help & Quotes',
+    description: 'Real answers for Florida homeowners on the insurance crisis, Citizens Insurance, windstorm, flood, and more.',
+    url: 'https://www.sunshinestateinsured.com',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Florida Home Insurance Help & Quotes' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const guides = [

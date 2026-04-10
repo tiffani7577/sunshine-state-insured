@@ -4,14 +4,19 @@ import Link from 'next/link'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Affordable Home Insurance Florida 2026 | Lower Your Premium Today',
-  description: 'Find affordable home insurance in Florida despite rising rates. Compare carriers, qualify for discounts, and lower your premium. Free quotes — call now.',
-  keywords: ['affordable home insurance Florida', 'cheap home insurance Florida', 'low cost homeowners insurance Florida', 'Florida home insurance discount', 'reduce home insurance premium Florida'],
+  alternates: { canonical: 'https://www.sunshinestateinsured.com/affordable-home-insurance-florida' },
   openGraph: {
-    title: 'Affordable Home Insurance Florida 2026 | Lower Your Premium Today',
-    description: 'Find affordable home insurance in Florida despite rising rates.',
+    title: 'Affordable Home Insurance Florida 2026',
+    description: 'Find affordable Florida home insurance in 2026. Compare carriers, discounts, and strategies to lower your premium.',
     url: 'https://www.sunshinestateinsured.com/affordable-home-insurance-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Affordable Home Insurance Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
   },
+  title: 'Affordable Home Insurance Florida 2026',
+  description: 'Find affordable Florida home insurance in 2026. Compare carriers, discounts, and strategies to lower your premium — even in today's hard market.',
+  keywords: ['affordable home insurance Florida', 'cheap home insurance Florida', 'low cost homeowners insurance Florida', 'Florida home insurance discount', 'reduce home insurance premium Florida'],
 }
 
 export default function AffordableHomeInsurancePage() {

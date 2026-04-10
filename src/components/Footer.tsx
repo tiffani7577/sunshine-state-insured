@@ -6,6 +6,11 @@ const guides = [
   { href: '/home-insurance-with-roof-over-15-years-florida', label: 'Roof Over 15 Years Old' },
   { href: '/home-insurance-after-hurricane-claim-florida', label: 'After a Hurricane Claim' },
   { href: '/how-to-lower-home-insurance-premium-florida', label: 'Lower Your Premium' },
+  { href: '/home-insurance-after-cancellation-florida', label: 'After a Cancellation' },
+  { href: '/home-insurance-for-older-homes-florida', label: 'Older Homes Insurance' },
+  { href: '/new-homeowner-insurance-florida-first-time-buyer', label: 'First-Time Buyer Guide' },
+  { href: '/hurricane-insurance-claims-florida', label: 'Hurricane Claims Guide' },
+  { href: '/affordable-home-insurance-florida', label: 'Affordable Home Insurance' },
 ]
 
 const coverage = [
@@ -15,6 +20,9 @@ const coverage = [
   { href: '/do-i-need-flood-insurance-if-not-in-flood-zone-florida', label: 'Flood Insurance Outside Flood Zones' },
   { href: '/condo-insurance-vs-homeowners-florida', label: 'Condo vs Homeowners Insurance' },
   { href: '/cheapest-home-insurance-fort-lauderdale', label: 'Cheapest Home Insurance Fort Lauderdale' },
+  { href: '/home-insurance-broward-county', label: 'Home Insurance Broward County' },
+  { href: '/florida-home-insurance-quotes', label: 'Florida Home Insurance Quotes' },
+  { href: '/best-homeowners-insurance-florida-2026', label: 'Best Homeowners Insurance 2026' },
 ]
 
 export default function Footer() {

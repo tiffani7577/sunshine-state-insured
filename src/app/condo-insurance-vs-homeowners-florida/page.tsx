@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Condo Insurance vs. Homeowners Insurance in Florida (2026 Guide)',
-  description: 'Florida condo insurance works very differently from homeowners insurance. Here\'s exactly what your condo association covers, what you need to cover, and how to avoid gaps.',
+  title: 'Condo vs Homeowners Insurance Florida 2026',
+  description: 'Condo insurance vs homeowners insurance in Florida: what each covers, what your HOA master policy covers, and how to avoid coverage gaps.'s exactly what your condo association covers, what you need to cover, and how to avoid gaps.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/condo-insurance-vs-homeowners-florida' },
+  openGraph: {
+    title: 'Condo vs Homeowners Insurance Florida 2026',
+    description: 'Condo vs homeowners insurance in Florida: what each covers, HOA master policy gaps, and how to stay protected.',
+    url: 'https://www.sunshinestateinsured.com/condo-insurance-vs-homeowners-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Condo vs Homeowners Insurance Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

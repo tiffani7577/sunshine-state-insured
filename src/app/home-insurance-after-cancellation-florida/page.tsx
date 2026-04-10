@@ -4,14 +4,19 @@ import Link from 'next/link'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance After Cancellation Florida | Get Covered Again Fast',
-  description: 'Lost your Florida home insurance? Find out how to get covered again after a cancellation or non-renewal. Options for high-risk homes, old roofs, and claims history.',
-  keywords: ['home insurance after cancellation Florida', 'Florida home insurance non-renewal', 'insurance dropped Florida', 'high risk home insurance Florida', 'home insurance after claim Florida'],
+  alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-after-cancellation-florida' },
   openGraph: {
-    title: 'Home Insurance After Cancellation Florida | Get Covered Again Fast',
-    description: 'Lost your Florida home insurance? Find out how to get covered again.',
+    title: 'Home Insurance After Cancellation Florida',
+    description: 'Lost your Florida home insurance? Find out how to get covered again after a cancellation, including Citizens options.',
     url: 'https://www.sunshinestateinsured.com/home-insurance-after-cancellation-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance After Cancellation Florida' }],
+    type: 'website',
+    locale: 'en_US',
   },
+  title: 'Home Insurance After Cancellation Florida',
+  description: 'Lost your Florida home insurance? Find out how to get covered again after a cancellation — including surplus lines and Citizens options.',
+  keywords: ['home insurance after cancellation Florida', 'Florida home insurance non-renewal', 'insurance dropped Florida', 'high risk home insurance Florida', 'home insurance after claim Florida'],
 }
 
 export default function HomeInsuranceAfterCancellationPage() {

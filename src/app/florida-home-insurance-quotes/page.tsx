@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Florida Home Insurance Quotes: How to Compare and Save in 2026',
-  description: 'Learn how to get accurate Florida home insurance quotes, what information you need, and how to compare carriers to find the best rate for your home.',
+  title: 'Florida Home Insurance Quotes: Compare & Save',
+  description: 'How to get accurate Florida home insurance quotes in 2026. What information you need, how to compare carriers, and how to find the best rate.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/florida-home-insurance-quotes' },
+  openGraph: {
+    title: 'Florida Home Insurance Quotes: Compare & Save',
+    description: 'Get accurate Florida home insurance quotes in 2026. Compare carriers and find the best rate for your home.',
+    url: 'https://www.sunshinestateinsured.com/florida-home-insurance-quotes',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Florida Home Insurance Quotes: Compare & Save' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance in Broward County, Florida (2026 Guide)',
-  description: 'Everything Broward County homeowners need to know about home insurance in 2026 — average rates, best carriers, flood zones, and how to lower your premium.',
+  title: 'Home Insurance Broward County Florida 2026',
+  description: 'Home insurance options for Broward County, Florida. Compare carriers, rates, and coverage for Fort Lauderdale and surrounding areas.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-broward-county' },
+  openGraph: {
+    title: 'Home Insurance Broward County Florida 2026',
+    description: 'Home insurance for Broward County, FL. Compare carriers, rates, and coverage for Fort Lauderdale and surrounding areas.',
+    url: 'https://www.sunshinestateinsured.com/home-insurance-broward-county',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance Broward County Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

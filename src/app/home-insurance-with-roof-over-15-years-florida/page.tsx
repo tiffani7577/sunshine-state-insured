@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance With a Roof Over 15 Years Old in Florida (2026)',
-  description: 'Florida carriers are refusing to insure homes with roofs older than 15 years. Here\'s how to find coverage, what it costs, and whether replacing your roof is worth it.',
+  title: 'Home Insurance With Old Roof Florida 2026',
+  description: 'Florida home insurance with a roof over 15 years old: what carriers require, how to get covered, and when to replace your roof.'s how to find coverage, what it costs, and whether replacing your roof is worth it.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-with-roof-over-15-years-florida' },
+  openGraph: {
+    title: 'Home Insurance With Old Roof Florida 2026',
+    description: 'Florida home insurance with a roof over 15 years old: carrier requirements, coverage options, and when to replace.',
+    url: 'https://www.sunshinestateinsured.com/home-insurance-with-roof-over-15-years-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance With Old Roof Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

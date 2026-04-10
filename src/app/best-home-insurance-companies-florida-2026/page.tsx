@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Best Home Insurance Companies in Florida for 2026',
-  description: 'The Florida home insurance market has changed dramatically. Here are the best carriers actually writing policies in Florida in 2026, with honest assessments of each.',
+  title: 'Best Home Insurance Companies Florida 2026',
+  description: 'The best Florida home insurance companies of 2026 ranked by financial strength, claims handling, and availability in the state's hard market.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/best-home-insurance-companies-florida-2026' },
+  openGraph: {
+    title: 'Best Home Insurance Companies Florida 2026',
+    description: 'Best Florida home insurance companies of 2026 ranked by financial strength, claims handling, and market availability.',
+    url: 'https://www.sunshinestateinsured.com/best-home-insurance-companies-florida-2026',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Best Home Insurance Companies Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

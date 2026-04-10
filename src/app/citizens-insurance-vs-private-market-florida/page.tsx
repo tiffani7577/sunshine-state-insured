@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Citizens Insurance vs Private Market Florida 2026',
-  description: 'Citizens Insurance is Florida\'s insurer of last resort — but is it right for you? A detailed comparison of Citizens vs. private market carriers for Florida homeowners in 2026.',
+  title: 'Citizens Insurance vs Private Market Florida',
+  description: 'Citizens Insurance vs private carriers in Florida: coverage limits, costs, and when to depopulate. Make the right choice for your home.'s insurer of last resort — but is it right for you? A detailed comparison of Citizens vs. private market carriers for Florida homeowners in 2026.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/citizens-insurance-vs-private-market-florida' },
+  openGraph: {
+    title: 'Citizens Insurance vs Private Market Florida',
+    description: 'Citizens Insurance vs private carriers in Florida: coverage, costs, and when to depopulate to save money.',
+    url: 'https://www.sunshinestateinsured.com/citizens-insurance-vs-private-market-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Citizens Insurance vs Private Market Florida' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

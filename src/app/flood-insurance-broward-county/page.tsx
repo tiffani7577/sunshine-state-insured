@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Flood Insurance in Broward County, Florida (2026 Guide)',
-  description: 'NFIP vs. private flood insurance in Broward County — costs, coverage limits, and what your homeowners policy doesn\'t cover. Everything Broward homeowners need to know.',
+  title: 'Flood Insurance Broward County Florida 2026',
+  description: 'Flood insurance options for Broward County homeowners: NFIP vs private flood, rates, and how to find the best coverage for your property.'t cover. Everything Broward homeowners need to know.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/flood-insurance-broward-county' },
+  openGraph: {
+    title: 'Flood Insurance Broward County Florida 2026',
+    description: 'Flood insurance for Broward County: NFIP vs private flood, rates, and how to find the best coverage for your home.',
+    url: 'https://www.sunshinestateinsured.com/flood-insurance-broward-county',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Flood Insurance Broward County Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

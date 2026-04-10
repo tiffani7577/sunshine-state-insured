@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Best Homeowners Insurance Florida 2026 | Top Carriers',
-  description: 'Compare the best Florida homeowners insurance companies for 2026. Real rate data, carrier reviews, and expert guidance for Florida homeowners.',
+  title: 'Best Homeowners Insurance Florida 2026',
+  description: 'Compare the best homeowners insurance policies in Florida for 2026. Ratings, coverage options, and tips for finding the right policy.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/best-homeowners-insurance-florida-2026' },
+  openGraph: {
+    title: 'Best Homeowners Insurance Florida 2026',
+    description: 'Compare the best homeowners insurance policies in Florida for 2026. Ratings, coverage options, and expert tips.',
+    url: 'https://www.sunshinestateinsured.com/best-homeowners-insurance-florida-2026',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Best Homeowners Insurance Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

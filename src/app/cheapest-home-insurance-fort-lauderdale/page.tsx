@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Cheapest Home Insurance Fort Lauderdale FL | 2026 Rates',
-  description: 'Find the cheapest home insurance in Fort Lauderdale for 2026. Real rate comparisons, top carriers, and the discounts most homeowners miss.',
+  title: 'Cheapest Home Insurance Fort Lauderdale 2026',
+  description: 'Find the cheapest home insurance in Fort Lauderdale. Compare rates, carriers, and discounts for Broward County homeowners in 2026.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/cheapest-home-insurance-fort-lauderdale' },
+  openGraph: {
+    title: 'Cheapest Home Insurance Fort Lauderdale 2026',
+    description: 'Find the cheapest home insurance in Fort Lauderdale. Compare rates and carriers for Broward County homeowners.',
+    url: 'https://www.sunshinestateinsured.com/cheapest-home-insurance-fort-lauderdale',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Cheapest Home Insurance Fort Lauderdale 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

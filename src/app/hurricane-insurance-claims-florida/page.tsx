@@ -4,14 +4,19 @@ import Link from 'next/link'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Hurricane Insurance Claims Florida | File & Maximize Payout',
-  description: 'Step-by-step guide to filing a hurricane insurance claim in Florida. Learn what to document, how to avoid claim denials, and when to hire a public adjuster.',
-  keywords: ['hurricane insurance claims Florida', 'file hurricane claim Florida', 'hurricane damage insurance Florida', 'Florida hurricane claim denied', 'public adjuster Florida hurricane'],
+  alternates: { canonical: 'https://www.sunshinestateinsured.com/hurricane-insurance-claims-florida' },
   openGraph: {
-    title: 'Hurricane Insurance Claims Florida | File & Maximize Payout',
-    description: 'Step-by-step guide to filing a hurricane insurance claim in Florida.',
+    title: 'Hurricane Insurance Claims Florida Guide',
+    description: 'Step-by-step guide to filing a hurricane insurance claim in Florida. Deadlines, documentation, and avoiding denials.',
     url: 'https://www.sunshinestateinsured.com/hurricane-insurance-claims-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Hurricane Insurance Claims Florida Guide' }],
+    type: 'website',
+    locale: 'en_US',
   },
+  title: 'Hurricane Insurance Claims Florida Guide',
+  description: 'Step-by-step guide to filing a hurricane insurance claim in Florida. Learn what to document, deadlines to know, and how to avoid claim denials.',
+  keywords: ['hurricane insurance claims Florida', 'file hurricane claim Florida', 'hurricane damage insurance Florida', 'Florida hurricane claim denied', 'public adjuster Florida hurricane'],
 }
 
 export default function HurricaneInsuranceClaimsPage() {

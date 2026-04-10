@@ -4,13 +4,17 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Why Is My Home Insurance So Expensive in Florida? (2026 Guide)',
-  description: 'Florida home insurance averages $8,292/year — nearly 3x the national average. Here are the 7 real reasons why and what you can do to lower your premium today.',
+  title: 'Why Is Florida Home Insurance So Expensive?',
+  description: 'Florida home insurance averages $8,292/year — nearly 3x the national average. Here are the real reasons and how to lower your premium.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/why-is-florida-home-insurance-so-expensive' },
   openGraph: {
-    title: 'Why Is My Home Insurance So Expensive in Florida?',
-    description: 'Florida home insurance averages $8,292/year. Here are the real reasons and how to lower your premium.',
+    title: 'Why Is Florida Home Insurance So Expensive?',
+    description: 'Florida home insurance averages $8,292/year — nearly 3x the national average. The real reasons and how to lower your premium.',
     url: 'https://www.sunshinestateinsured.com/why-is-florida-home-insurance-so-expensive',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Why Is Florida Home Insurance So Expensive?' }],
+    type: 'website',
+    locale: 'en_US',
   },
 }
 

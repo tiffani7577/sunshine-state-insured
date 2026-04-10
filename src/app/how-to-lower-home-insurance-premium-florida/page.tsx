@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'How to Lower Home Insurance in Florida 2026 | 9 Strategies',
-  description: 'Florida homeowners are paying record premiums. Here are 9 proven strategies to lower your home insurance cost — some can save you $1,000+ per year.',
+  title: 'How to Lower Home Insurance Premium Florida',
+  description: 'Proven ways to lower your Florida home insurance premium in 2026 — wind mitigation, roof upgrades, deductible changes, and carrier shopping.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/how-to-lower-home-insurance-premium-florida' },
+  openGraph: {
+    title: 'How to Lower Home Insurance Premium Florida',
+    description: 'Proven ways to lower your Florida home insurance premium in 2026 — wind mitigation, roof upgrades, and more.',
+    url: 'https://www.sunshinestateinsured.com/how-to-lower-home-insurance-premium-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'How to Lower Home Insurance Premium Florida' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

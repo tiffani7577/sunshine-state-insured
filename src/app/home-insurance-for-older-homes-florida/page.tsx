@@ -4,9 +4,18 @@ import ArticleLayout from '@/components/ArticleLayout'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Home Insurance for Older Homes in Florida 2026 Guide',
-  description: 'Insuring an older Florida home is harder than ever. Here\'s how to find coverage for homes built before 1990, what carriers look for, and how to lower your premium.',
+  title: 'Home Insurance for Older Homes Florida 2026',
+  description: 'Getting home insurance for an older Florida home is harder — but not impossible. Learn what carriers look for and how to qualify.'s how to find coverage for homes built before 1990, what carriers look for, and how to lower your premium.',
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-for-older-homes-florida' },
+  openGraph: {
+    title: 'Home Insurance for Older Homes Florida 2026',
+    description: 'Getting home insurance for an older Florida home is harder but possible. Learn what carriers look for to qualify.',
+    url: 'https://www.sunshinestateinsured.com/home-insurance-for-older-homes-florida',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Home Insurance for Older Homes Florida 2026' }],
+    type: 'website',
+    locale: 'en_US',
+  },
 }
 
 const faqs = [

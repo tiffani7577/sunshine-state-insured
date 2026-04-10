@@ -3,8 +3,18 @@ import type { Metadata } from 'next'
 export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
-  title: 'Thank You — Sunshine State Insured',
-  description: 'Your request has been received. A licensed Florida insurance specialist will contact you shortly.',
+  alternates: { canonical: 'https://www.sunshinestateinsured.com/thank-you' },
+  openGraph: {
+    title: 'Thank You | Sunshine State Insured',
+    description: 'Thank you for reaching out. A licensed Florida insurance specialist will be in touch shortly.',
+    url: 'https://www.sunshinestateinsured.com/thank-you',
+    siteName: 'Sunshine State Insured',
+    images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Thank You | Sunshine State Insured' }],
+    type: 'website',
+    locale: 'en_US',
+  },
+  title: 'Thank You | Sunshine State Insured',
+  description: 'Thank you for reaching out. A licensed Florida insurance specialist will be in touch shortly.',
   robots: { index: false, follow: false },
 }
 
