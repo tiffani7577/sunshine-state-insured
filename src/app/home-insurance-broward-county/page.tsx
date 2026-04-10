@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance in Broward County, Florida (2026 Guide)',
   description: 'Everything Broward County homeowners need to know about home insurance in 2026 — average rates, best carriers, flood zones, and how to lower your premium.',

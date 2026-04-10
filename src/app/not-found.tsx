@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Page Not Found — Sunshine State Insured',

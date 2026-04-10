@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance After Cancellation Florida | Get Covered Again Fast',
   description: 'Lost your Florida home insurance? Find out how to get covered again after a cancellation or non-renewal. Options for high-risk homes, old roofs, and claims history.',

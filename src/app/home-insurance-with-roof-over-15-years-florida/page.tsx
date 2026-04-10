@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance With a Roof Over 15 Years Old in Florida (2026)',
   description: 'Florida carriers are refusing to insure homes with roofs older than 15 years. Here\'s how to find coverage, what it costs, and whether replacing your roof is worth it.',

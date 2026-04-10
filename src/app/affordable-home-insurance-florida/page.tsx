@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Affordable Home Insurance Florida 2026 | Lower Your Premium Today',
   description: 'Find affordable home insurance in Florida despite rising rates. Compare carriers, qualify for discounts, and lower your premium. Free quotes — call now.',

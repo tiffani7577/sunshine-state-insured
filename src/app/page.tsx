@@ -3,6 +3,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import QuoteForm from '@/components/QuoteForm'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Sunshine State Insured | Florida Home Insurance Help & Quotes',
   description: 'Florida homeowners: get real answers about the insurance crisis, Citizens Insurance alternatives, windstorm coverage, and flood insurance. Serving Broward County and all of Florida.',

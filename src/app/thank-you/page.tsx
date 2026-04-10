@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Thank You — Sunshine State Insured',
   description: 'Your request has been received. A licensed Florida insurance specialist will contact you shortly.',

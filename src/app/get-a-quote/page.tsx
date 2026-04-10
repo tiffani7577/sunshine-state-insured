@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import QuoteForm from '@/components/QuoteForm'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Get a Free Florida Home Insurance Quote — Sunshine State Insured',
   description: 'Get a free, no-obligation Florida home insurance quote. We compare rates from top Florida carriers and find the best coverage for your home.',

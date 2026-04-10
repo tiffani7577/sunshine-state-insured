@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance Dropped by Carrier in Florida: What to Do Next (2026)',
   description: 'Got a non-renewal notice from your Florida home insurance carrier? Here\'s exactly what to do, your legal rights, and how to find new coverage fast.',

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Why Is My Home Insurance So Expensive in Florida? (2026 Guide)',
   description: 'Florida home insurance averages $8,292/year — nearly 3x the national average. Here are the 7 real reasons why and what you can do to lower your premium today.',

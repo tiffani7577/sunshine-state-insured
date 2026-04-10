@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Condo Insurance vs. Homeowners Insurance in Florida (2026 Guide)',
   description: 'Florida condo insurance works very differently from homeowners insurance. Here\'s exactly what your condo association covers, what you need to cover, and how to avoid gaps.',

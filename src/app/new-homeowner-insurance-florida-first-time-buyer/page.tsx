@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance for Florida First-Time Buyers: Complete 2026 Guide',
   description: 'Buying your first home in Florida? Home insurance here is unlike anywhere else in the country. Here\'s everything you need to know before you close.',

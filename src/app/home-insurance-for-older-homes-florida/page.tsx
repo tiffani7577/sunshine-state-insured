@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Home Insurance for Older Homes in Florida 2026 Guide',
   description: 'Insuring an older Florida home is harder than ever. Here\'s how to find coverage for homes built before 1990, what carriers look for, and how to lower your premium.',

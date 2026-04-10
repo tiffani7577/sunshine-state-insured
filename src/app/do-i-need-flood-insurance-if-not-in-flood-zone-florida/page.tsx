@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Do I Need Flood Insurance If Not in a Flood Zone in Florida? (2026)',
   description: 'Florida\'s Zone X properties flood too — 25% of all Florida flood claims come from outside high-risk zones. Here\'s the honest answer to whether you need flood insurance.',

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Citizens Insurance vs Private Market Florida 2026',
   description: 'Citizens Insurance is Florida\'s insurer of last resort — but is it right for you? A detailed comparison of Citizens vs. private market carriers for Florida homeowners in 2026.',

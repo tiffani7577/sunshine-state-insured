@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'What Does Windstorm Deductible Mean in Florida? (2026 Guide)',
   description: 'Florida\'s windstorm deductible is different from your regular deductible — and it can cost you tens of thousands of dollars if you don\'t understand it. Here\'s exactly how it works.',

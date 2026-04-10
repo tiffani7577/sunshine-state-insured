@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import ArticleLayout from '@/components/ArticleLayout'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Cheapest Home Insurance Fort Lauderdale FL | 2026 Rates',
   description: 'Find the cheapest home insurance in Fort Lauderdale for 2026. Real rate comparisons, top carriers, and the discounts most homeowners miss.',

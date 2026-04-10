@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 export const metadata: Metadata = {
   title: 'Hurricane Insurance Claims Florida | File & Maximize Payout',
   description: 'Step-by-step guide to filing a hurricane insurance claim in Florida. Learn what to document, how to avoid claim denials, and when to hire a public adjuster.',
