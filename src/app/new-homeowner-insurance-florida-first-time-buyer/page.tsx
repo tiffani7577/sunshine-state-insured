@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Home Insurance Florida First-Time Buyers 2026',
-  description: 'First-time homebuyer guide to Florida home insurance. What to buy, what to skip, and how to find affordable coverage in a tough market.'s everything you need to know before you close.',
+  description: "First-time homebuyer guide to Florida home insurance. What to buy, what to skip, and how to find affordable coverage in a tough market.'s everything you need to know before you close.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/new-homeowner-insurance-florida-first-time-buyer' },
   openGraph: {
     title: 'Home Insurance Florida First-Time Buyers 2026',

@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Home Insurance After Hurricane Claim Florida',
-  description: 'How to navigate Florida home insurance after filing a hurricane claim. What carriers look for and how to protect your coverage.'s what happens to your insurance, whether you\'ll be dropped, and how to protect your coverage after a claim.',
+  description: "How to navigate Florida home insurance after filing a hurricane claim. What carriers look for and how to protect your coverage.'s what happens to your insurance, whether you'll be dropped, and how to protect your coverage after a claim.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-after-hurricane-claim-florida' },
   openGraph: {
     title: 'Home Insurance After Hurricane Claim Florida',

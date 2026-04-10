@@ -5,11 +5,11 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Flood Insurance Outside Flood Zones Florida',
-  description: 'Do you need flood insurance if you're not in a flood zone in Florida? The answer may surprise you — 25% of flood claims come from low-risk zones.'s Zone X properties flood too — 25% of all Florida flood claims come from outside high-risk zones. Here\'s the honest answer to whether you need flood insurance.',
+  description: "Do you need flood insurance if you're not in a flood zone in Florida? Zone X properties flood too — 25% of all Florida flood claims come from outside high-risk zones. Here's the honest answer.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/do-i-need-flood-insurance-if-not-in-flood-zone-florida' },
   openGraph: {
     title: 'Flood Insurance Outside Flood Zones Florida',
-    description: 'Do you need flood insurance outside a flood zone in Florida? 25% of claims come from low-risk areas. Here's what to know.',
+    description: "Do you need flood insurance outside a flood zone in Florida? 25% of claims come from low-risk areas. Here's what to know.",
     url: 'https://www.sunshinestateinsured.com/do-i-need-flood-insurance-if-not-in-flood-zone-florida',
     siteName: 'Sunshine State Insured',
     images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Flood Insurance Outside Flood Zones Florida' }],

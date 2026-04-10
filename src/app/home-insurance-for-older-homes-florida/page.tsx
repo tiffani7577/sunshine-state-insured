@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Home Insurance for Older Homes Florida 2026',
-  description: 'Getting home insurance for an older Florida home is harder — but not impossible. Learn what carriers look for and how to qualify.'s how to find coverage for homes built before 1990, what carriers look for, and how to lower your premium.',
+  description: "Getting home insurance for an older Florida home is harder — but not impossible. Learn what carriers look for and how to qualify.'s how to find coverage for homes built before 1990, what carriers look for, and how to lower your premium.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-for-older-homes-florida' },
   openGraph: {
     title: 'Home Insurance for Older Homes Florida 2026',

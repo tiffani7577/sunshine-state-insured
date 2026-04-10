@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Home Insurance With Old Roof Florida 2026',
-  description: 'Florida home insurance with a roof over 15 years old: what carriers require, how to get covered, and when to replace your roof.'s how to find coverage, what it costs, and whether replacing your roof is worth it.',
+  description: "Florida home insurance with a roof over 15 years old: what carriers require, how to get covered, and when to replace your roof.'s how to find coverage, what it costs, and whether replacing your roof is worth it.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/home-insurance-with-roof-over-15-years-florida' },
   openGraph: {
     title: 'Home Insurance With Old Roof Florida 2026',

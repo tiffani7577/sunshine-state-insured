@@ -5,11 +5,11 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Wind Mitigation Inspection Fort Lauderdale',
-  description: 'Wind mitigation inspections in Fort Lauderdale can save you hundreds per year on home insurance. Learn what's inspected and how to qualify.'s everything you need to know.',
+  description: "Wind mitigation inspections in Fort Lauderdale can save you hundreds per year on home insurance. Learn what's inspected and how to qualify.'s everything you need to know.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/wind-mitigation-inspection-fort-lauderdale' },
   openGraph: {
     title: 'Wind Mitigation Inspection Fort Lauderdale',
-    description: 'Wind mitigation inspections in Fort Lauderdale can save hundreds per year on home insurance. What's inspected and how to qualify.',
+    description: "Wind mitigation inspections in Fort Lauderdale can save hundreds per year on home insurance. What's inspected and how to qualify.",
     url: 'https://www.sunshinestateinsured.com/wind-mitigation-inspection-fort-lauderdale',
     siteName: 'Sunshine State Insured',
     images: [{ url: 'https://www.sunshinestateinsured.com/og-image.jpg', width: 1200, height: 630, alt: 'Wind Mitigation Inspection Fort Lauderdale' }],

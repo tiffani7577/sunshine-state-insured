@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Condo vs Homeowners Insurance Florida 2026',
-  description: 'Condo insurance vs homeowners insurance in Florida: what each covers, what your HOA master policy covers, and how to avoid coverage gaps.'s exactly what your condo association covers, what you need to cover, and how to avoid gaps.',
+  description: "Condo insurance vs homeowners insurance in Florida: what each covers, what your HOA master policy covers, and how to avoid coverage gaps.'s exactly what your condo association covers, what you need to cover, and how to avoid gaps.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/condo-insurance-vs-homeowners-florida' },
   openGraph: {
     title: 'Condo vs Homeowners Insurance Florida 2026',

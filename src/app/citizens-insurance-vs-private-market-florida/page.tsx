@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Citizens Insurance vs Private Market Florida',
-  description: 'Citizens Insurance vs private carriers in Florida: coverage limits, costs, and when to depopulate. Make the right choice for your home.'s insurer of last resort — but is it right for you? A detailed comparison of Citizens vs. private market carriers for Florida homeowners in 2026.',
+  description: "Citizens Insurance vs private carriers in Florida: coverage limits, costs, and when to depopulate. Make the right choice for your home.'s insurer of last resort — but is it right for you? A detailed comparison of Citizens vs. private market carriers for Florida homeowners in 2026.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/citizens-insurance-vs-private-market-florida' },
   openGraph: {
     title: 'Citizens Insurance vs Private Market Florida',

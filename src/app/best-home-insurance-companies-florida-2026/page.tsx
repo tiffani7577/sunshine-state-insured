@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Best Home Insurance Companies Florida 2026',
-  description: 'The best Florida home insurance companies of 2026 ranked by financial strength, claims handling, and availability in the state's hard market.',
+  description: "The best Florida home insurance companies of 2026 ranked by financial strength, claims handling, and availability in the state's hard market.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/best-home-insurance-companies-florida-2026' },
   openGraph: {
     title: 'Best Home Insurance Companies Florida 2026',

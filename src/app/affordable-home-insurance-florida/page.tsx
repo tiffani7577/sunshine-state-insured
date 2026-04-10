@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
   },
   title: 'Affordable Home Insurance Florida 2026',
-  description: 'Find affordable Florida home insurance in 2026. Compare carriers, discounts, and strategies to lower your premium — even in today's hard market.',
+  description: "Find affordable Florida home insurance in 2026. Compare carriers, discounts, and strategies to lower your premium — even in today's hard market.",
   keywords: ['affordable home insurance Florida', 'cheap home insurance Florida', 'low cost homeowners insurance Florida', 'Florida home insurance discount', 'reduce home insurance premium Florida'],
 }
 

@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Flood Insurance Broward County Florida 2026',
-  description: 'Flood insurance options for Broward County homeowners: NFIP vs private flood, rates, and how to find the best coverage for your property.'t cover. Everything Broward homeowners need to know.',
+  description: "Flood insurance options for Broward County homeowners: NFIP vs private flood, rates, and how to find the best coverage for your property.'t cover. Everything Broward homeowners need to know.",
   alternates: { canonical: 'https://www.sunshinestateinsured.com/flood-insurance-broward-county' },
   openGraph: {
     title: 'Flood Insurance Broward County Florida 2026',
