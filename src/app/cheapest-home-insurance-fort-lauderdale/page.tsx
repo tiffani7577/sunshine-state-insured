@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the average home insurance cost in Fort Lauderdale?',
-    answer: 'The average home insurance premium in Fort Lauderdale in 2026 is approximately $6,800-$9,500 per year for a single-family home with $300,000 in dwelling coverage. This is above the Florida state average due to Fort Lauderdale\'s coastal location in Broward County. Premiums vary significantly based on your home\'s age, roof condition, construction type, and distance from the coast.'
+    answer: "The average home insurance premium in Fort Lauderdale in 2026 is approximately $6,800-$9,500 per year for a single-family home with $300,000 in dwelling coverage. This is above the Florida state average due to Fort Lauderdale\'s coastal location in Broward County. Premiums vary significantly based on your home\'s age, roof condition, construction type, and distance from the coast."
   },
   {
     question: 'Which insurance company is cheapest for Fort Lauderdale homes?',
@@ -29,14 +29,14 @@ const faqs = [
   },
   {
     question: 'How can I lower my home insurance premium in Fort Lauderdale?',
-    answer: 'The most impactful ways to lower your Fort Lauderdale home insurance premium are: (1) Get a wind mitigation inspection — can save $500-$2,000/year, (2) Install impact windows and doors — can save $800-$2,500/year, (3) Replace your roof if it\'s over 15 years old, (4) Raise your deductible, (5) Bundle with auto insurance, (6) Shop the market annually — rates change significantly year to year.'
+    answer: "The most impactful ways to lower your Fort Lauderdale home insurance premium are: (1) Get a wind mitigation inspection — can save $500-$2,000/year, (2) Install impact windows and doors — can save $800-$2,500/year, (3) Replace your roof if it\'s over 15 years old, (4) Raise your deductible, (5) Bundle with auto insurance, (6) Shop the market annually — rates change significantly year to year."
   },
   {
     question: 'Is Citizens Insurance the cheapest option in Fort Lauderdale?',
     answer: 'Citizens Insurance is often competitive in Fort Lauderdale due to its rate caps, but it is not always the cheapest option. For homes with newer roofs, impact windows, and other favorable features, some private carriers can offer lower premiums than Citizens with broader coverage. For older homes or properties with prior claims, Citizens may indeed be the most affordable option. Always compare both.'
   },
   {
-    question: 'Does Fort Lauderdale\'s location near the ocean affect my insurance rate?',
+    question: "Does Fort Lauderdale\'s location near the ocean affect my insurance rate?",
     answer: 'Yes, significantly. Properties within 5 miles of the coast face higher windstorm risk, which is reflected in higher premiums. Properties in the High Velocity Hurricane Zone (HVHZ) — which includes most of Broward County — are subject to stricter building code requirements and higher insurance rates. The closer your property is to the Intracoastal Waterway or the Atlantic Ocean, the higher your windstorm premium will typically be.'
   },
 ]

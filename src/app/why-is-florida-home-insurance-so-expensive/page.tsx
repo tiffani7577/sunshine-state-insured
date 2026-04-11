@@ -21,15 +21,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'Is Florida home insurance the most expensive in the country?',
-    answer: 'Yes. As of 2026, Florida has the highest average home insurance premium in the United States at approximately $8,292 per year, according to Insurify\'s 2026 Florida Home Insurance Report. The national average is roughly $2,800 per year, making Florida premiums nearly three times higher.'
+    answer: "Yes. As of 2026, Florida has the highest average home insurance premium in the United States at approximately $8,292 per year, according to Insurify\'s 2026 Florida Home Insurance Report. The national average is roughly $2,800 per year, making Florida premiums nearly three times higher."
   },
   {
     question: 'Why did my Florida home insurance premium go up so much this year?',
-    answer: 'Several factors drive annual increases: reinsurance costs passed down from carriers, your roof aging another year closer to the 15-year threshold, inflation increasing the cost to rebuild your home, and your carrier adjusting rates based on statewide claims data. If your premium jumped more than 20%, it\'s worth shopping the market immediately.'
+    answer: "Several factors drive annual increases: reinsurance costs passed down from carriers, your roof aging another year closer to the 15-year threshold, inflation increasing the cost to rebuild your home, and your carrier adjusting rates based on statewide claims data. If your premium jumped more than 20%, it\'s worth shopping the market immediately."
   },
   {
     question: 'Will Florida home insurance prices ever come down?',
-    answer: 'There are cautious signs of stabilization. Florida\'s 2022 and 2023 legislative reforms reduced fraudulent claims and limited attorney fees, which were major cost drivers. Some carriers that exited the state are beginning to re-enter. However, climate risk and reinsurance costs mean premiums are unlikely to return to 2019 levels.'
+    answer: "There are cautious signs of stabilization. Florida\'s 2022 and 2023 legislative reforms reduced fraudulent claims and limited attorney fees, which were major cost drivers. Some carriers that exited the state are beginning to re-enter. However, climate risk and reinsurance costs mean premiums are unlikely to return to 2019 levels."
   },
   {
     question: 'Can I get a discount on my Florida home insurance?',

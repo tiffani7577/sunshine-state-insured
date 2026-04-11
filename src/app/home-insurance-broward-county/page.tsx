@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the average cost of home insurance in Broward County?',
-    answer: 'Broward County homeowners typically pay $4,500–$8,000 per year for home insurance, depending on location, home value, roof age, and proximity to the coast. Coastal cities like Fort Lauderdale Beach, Deerfield Beach, and Pompano Beach tend to have higher premiums than inland areas like Coral Springs, Plantation, or Weston. The wide range reflects Broward\'s diverse geography — from oceanfront condos to inland single-family homes.',
+    answer: "Broward County homeowners typically pay $4,500–$8,000 per year for home insurance, depending on location, home value, roof age, and proximity to the coast. Coastal cities like Fort Lauderdale Beach, Deerfield Beach, and Pompano Beach tend to have higher premiums than inland areas like Coral Springs, Plantation, or Weston. The wide range reflects Broward\'s diverse geography — from oceanfront condos to inland single-family homes.",
   },
   {
     question: 'Do I need flood insurance in Broward County?',
-    answer: 'Most standard homeowners policies do NOT cover flood damage. Given Broward County\'s low elevation and frequent heavy rainfall, flood insurance is strongly recommended for most Broward homeowners — not just those in designated flood zones. FEMA\'s National Flood Insurance Program (NFIP) provides coverage up to $250,000 for the structure and $100,000 for contents. Private flood insurance options are also available with higher limits and sometimes lower premiums.',
+    answer: "Most standard homeowners policies do NOT cover flood damage. Given Broward County\'s low elevation and frequent heavy rainfall, flood insurance is strongly recommended for most Broward homeowners — not just those in designated flood zones. FEMA\'s National Flood Insurance Program (NFIP) provides coverage up to $250,000 for the structure and $100,000 for contents. Private flood insurance options are also available with higher limits and sometimes lower premiums.",
   },
   {
     question: 'Which insurance companies write policies in Broward County?',
-    answer: 'Active carriers in Broward County include Citizens Insurance, Tower Hill, Heritage Insurance, Security First Financial, Kin Insurance, Universal Property & Casualty, and Slide Insurance. National carriers like State Farm have limited availability in South Florida. The best carrier for your specific property depends on your home\'s age, construction, roof condition, and location. An independent agent can identify which carriers are currently competitive for your specific address.',
+    answer: "Active carriers in Broward County include Citizens Insurance, Tower Hill, Heritage Insurance, Security First Financial, Kin Insurance, Universal Property & Casualty, and Slide Insurance. National carriers like State Farm have limited availability in South Florida. The best carrier for your specific property depends on your home\'s age, construction, roof condition, and location. An independent agent can identify which carriers are currently competitive for your specific address.",
   },
   {
     question: 'How does being in a flood zone affect my insurance in Broward County?',
-    answer: 'Being in a FEMA-designated Special Flood Hazard Area (SFHA) — typically Zone AE or VE — has two main effects: (1) If you have a federally-backed mortgage, flood insurance is required; (2) Your homeowners insurance premium may be higher because carriers factor in flood-adjacent risk. You can look up your property\'s flood zone at FEMA\'s Flood Map Service Center (msc.fema.gov). If your property was recently remapped into a higher-risk zone, you may qualify for a lower-cost Preferred Risk Policy during a transition period.',
+    answer: "Being in a FEMA-designated Special Flood Hazard Area (SFHA) — typically Zone AE or VE — has two main effects: (1) If you have a federally-backed mortgage, flood insurance is required; (2) Your homeowners insurance premium may be higher because carriers factor in flood-adjacent risk. You can look up your property\'s flood zone at FEMA\'s Flood Map Service Center (msc.fema.gov). If your property was recently remapped into a higher-risk zone, you may qualify for a lower-cost Preferred Risk Policy during a transition period.",
   },
   {
     question: 'What is a wind mitigation inspection and do I need one in Broward County?',
-    answer: 'A wind mitigation inspection is an assessment by a certified inspector of your home\'s storm-resistance features — roof shape, roof covering, roof deck attachment, and opening protection. In Broward County, where wind exposure is significant, this inspection can reduce your wind premium by 15–45%. The inspection costs $75–$150 and typically pays for itself within the first month of premium savings. It\'s one of the most cost-effective actions a Broward homeowner can take.',
+    answer: "A wind mitigation inspection is an assessment by a certified inspector of your home\'s storm-resistance features — roof shape, roof covering, roof deck attachment, and opening protection. In Broward County, where wind exposure is significant, this inspection can reduce your wind premium by 15–45%. The inspection costs $75–$150 and typically pays for itself within the first month of premium savings. It\'s one of the most cost-effective actions a Broward homeowner can take.",
   },
 ]
 

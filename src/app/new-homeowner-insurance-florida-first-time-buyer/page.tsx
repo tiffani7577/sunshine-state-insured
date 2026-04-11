@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'When do I need to get home insurance as a first-time buyer in Florida?',
-    answer: 'You need to have a home insurance policy in place before your closing date. Your lender will require proof of insurance (a declarations page or binder) before they fund your mortgage. Most lenders want to see this at least 3-7 days before closing. Start shopping for insurance as soon as your offer is accepted — in Florida\'s market, getting quotes and underwriting approval can take 1-2 weeks, and some properties require inspections before coverage is bound.'
+    answer: "You need to have a home insurance policy in place before your closing date. Your lender will require proof of insurance (a declarations page or binder) before they fund your mortgage. Most lenders want to see this at least 3-7 days before closing. Start shopping for insurance as soon as your offer is accepted — in Florida\'s market, getting quotes and underwriting approval can take 1-2 weeks, and some properties require inspections before coverage is bound."
   },
   {
     question: 'How much home insurance do I need as a first-time buyer in Florida?',
-    answer: 'Your dwelling coverage should equal the cost to rebuild your home — not its purchase price or market value. These numbers are often different in Florida. Your lender will require at least enough coverage to pay off your mortgage, but you should insure for the full rebuild cost. A local independent agent can help you calculate the appropriate dwelling coverage for your specific home. You\'ll also need personal property coverage (for your belongings), personal liability coverage (minimum $300,000 recommended), and loss of use coverage.'
+    answer: "Your dwelling coverage should equal the cost to rebuild your home — not its purchase price or market value. These numbers are often different in Florida. Your lender will require at least enough coverage to pay off your mortgage, but you should insure for the full rebuild cost. A local independent agent can help you calculate the appropriate dwelling coverage for your specific home. You\'ll also need personal property coverage (for your belongings), personal liability coverage (minimum $300,000 recommended), and loss of use coverage."
   },
   {
     question: 'Do I need flood insurance as a first-time buyer in Florida?',
-    answer: 'If your home is in a high-risk flood zone (Zone AE, VE, or similar), your lender will require flood insurance. If you\'re in Zone X (moderate to low risk), flood insurance is optional but strongly recommended for Florida properties. Remember: standard homeowners insurance does not cover flooding from external sources. Given Florida\'s flooding history — including the catastrophic Fort Lauderdale flooding in April 2023 — most Florida insurance professionals recommend flood insurance for all homeowners, regardless of flood zone.'
+    answer: "If your home is in a high-risk flood zone (Zone AE, VE, or similar), your lender will require flood insurance. If you\'re in Zone X (moderate to low risk), flood insurance is optional but strongly recommended for Florida properties. Remember: standard homeowners insurance does not cover flooding from external sources. Given Florida\'s flooding history — including the catastrophic Fort Lauderdale flooding in April 2023 — most Florida insurance professionals recommend flood insurance for all homeowners, regardless of flood zone."
   },
   {
     question: 'What is a 4-point inspection and will I need one for my first Florida home?',
-    answer: 'A 4-point inspection evaluates your home\'s roof, electrical, plumbing, and HVAC systems. Most Florida carriers require a 4-point inspection for homes over 20-25 years old before they\'ll provide a quote. If you\'re buying an older home, order the 4-point inspection as part of your due diligence — before you\'re committed to closing. Issues found in a 4-point inspection can affect your ability to get insurance at an affordable rate, which can affect your ability to close.'
+    answer: "A 4-point inspection evaluates your home\'s roof, electrical, plumbing, and HVAC systems. Most Florida carriers require a 4-point inspection for homes over 20-25 years old before they\'ll provide a quote. If you\'re buying an older home, order the 4-point inspection as part of your due diligence — before you\'re committed to closing. Issues found in a 4-point inspection can affect your ability to get insurance at an affordable rate, which can affect your ability to close."
   },
   {
     question: 'Why is Florida home insurance so much more expensive than other states?',
-    answer: 'Florida\'s home insurance premiums are the highest in the country for several reasons: hurricane risk (Florida is the most hurricane-exposed state in the US), the cost of reinsurance (insurance for insurance companies), a history of litigation and fraud that drove up costs for all policyholders, and the challenges of insuring an aging housing stock in a coastal environment. The 2022-2023 legislative reforms have begun to stabilize the market, but premiums remain significantly above the national average.'
+    answer: "Florida\'s home insurance premiums are the highest in the country for several reasons: hurricane risk (Florida is the most hurricane-exposed state in the US), the cost of reinsurance (insurance for insurance companies), a history of litigation and fraud that drove up costs for all policyholders, and the challenges of insuring an aging housing stock in a coastal environment. The 2022-2023 legislative reforms have begun to stabilize the market, but premiums remain significantly above the national average."
   },
 ]
 

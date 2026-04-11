@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: 'Should I hire a public adjuster for my hurricane claim in Florida?',
-    answer: 'A public adjuster works on your behalf (not the insurance company\'s behalf) to document and negotiate your claim. They typically charge 10-20% of your claim settlement. For large, complex claims involving significant structural damage, a public adjuster can often negotiate a significantly higher settlement that more than covers their fee. For smaller, straightforward claims, the fee may not be worth it. Get a free consultation before deciding.'
+    answer: "A public adjuster works on your behalf (not the insurance company\'s behalf) to document and negotiate your claim. They typically charge 10-20% of your claim settlement. For large, complex claims involving significant structural damage, a public adjuster can often negotiate a significantly higher settlement that more than covers their fee. For smaller, straightforward claims, the fee may not be worth it. Get a free consultation before deciding."
   },
   {
     question: 'What is the difference between wind damage and flood damage in a hurricane claim?',

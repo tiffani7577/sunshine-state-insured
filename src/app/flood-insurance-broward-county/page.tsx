@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How much does flood insurance cost in Broward County?',
-    answer: 'Flood insurance costs in Broward County vary significantly based on your property\'s flood zone, elevation, and coverage amount. Under FEMA\'s Risk Rating 2.0 system (implemented in 2021), the average NFIP premium in Broward County is approximately $1,200-$2,500 per year for a single-family home. Properties in high-risk flood zones (AE, VE) pay more than those in moderate or low-risk zones. Private flood insurance is often 20-40% cheaper for lower-risk properties.'
+    answer: "Flood insurance costs in Broward County vary significantly based on your property\'s flood zone, elevation, and coverage amount. Under FEMA\'s Risk Rating 2.0 system (implemented in 2021), the average NFIP premium in Broward County is approximately $1,200-$2,500 per year for a single-family home. Properties in high-risk flood zones (AE, VE) pay more than those in moderate or low-risk zones. Private flood insurance is often 20-40% cheaper for lower-risk properties."
   },
   {
     question: 'Does my homeowners insurance cover flood damage in Broward County?',
@@ -29,15 +29,15 @@ const faqs = [
   },
   {
     question: 'What flood zones are in Broward County?',
-    answer: 'Broward County has properties in multiple flood zones. Zone AE (high risk, 1% annual flood chance) covers many coastal and canal-adjacent areas. Zone X (moderate to low risk) covers most inland areas. Zone VE (coastal high hazard) covers beachfront properties. You can find your flood zone by entering your address in FEMA\'s Flood Map Service Center at msc.fema.gov.'
+    answer: "Broward County has properties in multiple flood zones. Zone AE (high risk, 1% annual flood chance) covers many coastal and canal-adjacent areas. Zone X (moderate to low risk) covers most inland areas. Zone VE (coastal high hazard) covers beachfront properties. You can find your flood zone by entering your address in FEMA\'s Flood Map Service Center at msc.fema.gov."
   },
   {
     question: 'What is the NFIP coverage limit for Broward County homes?',
-    answer: 'The National Flood Insurance Program (NFIP) has a maximum coverage limit of $250,000 for the building structure and $100,000 for personal contents. If your home\'s replacement cost exceeds $250,000 — which is common for many Broward County homes — you would need an excess flood policy from a private insurer to cover the gap.'
+    answer: "The National Flood Insurance Program (NFIP) has a maximum coverage limit of $250,000 for the building structure and $100,000 for personal contents. If your home\'s replacement cost exceeds $250,000 — which is common for many Broward County homes — you would need an excess flood policy from a private insurer to cover the gap."
   },
   {
     question: 'How long does it take for flood insurance to take effect in Broward County?',
-    answer: 'NFIP flood insurance policies have a 30-day waiting period before coverage takes effect. This means you cannot buy flood insurance the day before a hurricane is forecast and expect to be covered. Private flood insurance waiting periods vary by carrier — some offer 10-14 day waiting periods. If you\'re buying a home in Broward County, purchase flood insurance at closing to avoid the waiting period.'
+    answer: "NFIP flood insurance policies have a 30-day waiting period before coverage takes effect. This means you cannot buy flood insurance the day before a hurricane is forecast and expect to be covered. Private flood insurance waiting periods vary by carrier — some offer 10-14 day waiting periods. If you\'re buying a home in Broward County, purchase flood insurance at closing to avoid the waiting period."
   },
 ]
 

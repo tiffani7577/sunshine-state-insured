@@ -29,15 +29,15 @@ const faqs = [
   },
   {
     question: 'Why did State Farm and Allstate stop writing new policies in Florida?',
-    answer: 'State Farm stopped writing new homeowners policies in Florida in 2023, citing the state\'s challenging insurance environment — specifically the high cost of reinsurance, litigation costs, and hurricane risk. Allstate has also significantly reduced its Florida presence. These decisions reflect the broader challenge of profitably insuring Florida homes at rates that consumers can afford. National carriers with shareholders to answer to have been less willing to absorb Florida\'s losses than state-backed Citizens or Florida-specific carriers.'
+    answer: "State Farm stopped writing new homeowners policies in Florida in 2023, citing the state\'s challenging insurance environment — specifically the high cost of reinsurance, litigation costs, and hurricane risk. Allstate has also significantly reduced its Florida presence. These decisions reflect the broader challenge of profitably insuring Florida homes at rates that consumers can afford. National carriers with shareholders to answer to have been less willing to absorb Florida\'s losses than state-backed Citizens or Florida-specific carriers."
   },
   {
     question: 'What should I look for when choosing a Florida home insurance company?',
-    answer: 'Key factors to evaluate: (1) Financial strength rating — look for A.M. Best ratings of A- or better, (2) Florida-specific claims experience — how does the carrier handle Florida hurricane claims?, (3) Coverage terms — what\'s included and excluded?, (4) Premium stability — has the carrier been raising rates dramatically?, (5) Availability in your specific county and for your property type, (6) Customer service and claims handling reputation.'
+    answer: "Key factors to evaluate: (1) Financial strength rating — look for A.M. Best ratings of A- or better, (2) Florida-specific claims experience — how does the carrier handle Florida hurricane claims?, (3) Coverage terms — what\'s included and excluded?, (4) Premium stability — has the carrier been raising rates dramatically?, (5) Availability in your specific county and for your property type, (6) Customer service and claims handling reputation."
   },
   {
     question: 'How often should I switch home insurance companies in Florida?',
-    answer: 'You should shop your coverage every year, 60-90 days before your renewal date. You should switch whenever you find meaningfully better coverage at a lower price from a financially stable carrier. In Florida\'s volatile market, the best carrier for your home can change year to year. Loyalty to a carrier rarely pays off in Florida — the market rewards active shoppers.'
+    answer: "You should shop your coverage every year, 60-90 days before your renewal date. You should switch whenever you find meaningfully better coverage at a lower price from a financially stable carrier. In Florida\'s volatile market, the best carrier for your home can change year to year. Loyalty to a carrier rarely pays off in Florida — the market rewards active shoppers."
   },
 ]
 

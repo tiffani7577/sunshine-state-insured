@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'How is the windstorm deductible calculated in Florida?',
-    answer: 'Florida windstorm deductibles are almost always calculated as a percentage of your home\'s insured value (dwelling coverage), not as a flat dollar amount. Common percentages are 2%, 5%, and 10%. On a home insured for $400,000, a 2% windstorm deductible = $8,000, a 5% windstorm deductible = $20,000, and a 10% windstorm deductible = $40,000. This is why understanding your windstorm deductible is so critical.'
+    answer: "Florida windstorm deductibles are almost always calculated as a percentage of your home\'s insured value (dwelling coverage), not as a flat dollar amount. Common percentages are 2%, 5%, and 10%. On a home insured for $400,000, a 2% windstorm deductible = $8,000, a 5% windstorm deductible = $20,000, and a 10% windstorm deductible = $40,000. This is why understanding your windstorm deductible is so critical."
   },
   {
     question: 'When does the windstorm deductible apply in Florida?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Is the windstorm deductible the same as the hurricane deductible?',
-    answer: 'Not always. Some Florida policies have separate deductibles for "windstorm" (any wind damage) and "hurricane" (named storms only). In these policies, the hurricane deductible is typically higher. Other policies use a single windstorm deductible that applies to all wind damage regardless of storm classification. Your policy\'s declarations page will clearly show which type you have.'
+    answer: "Not always. Some Florida policies have separate deductibles for \"windstorm\" (any wind damage) and \"hurricane\" (named storms only). In these policies, the hurricane deductible is typically higher. Other policies use a single windstorm deductible that applies to all wind damage regardless of storm classification. Your policy\'s declarations page will clearly show which type you have."
   },
   {
     question: 'What happens if my windstorm damage is less than my deductible?',

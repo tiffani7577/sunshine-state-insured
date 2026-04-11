@@ -20,20 +20,20 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: 'What is Zone X in Florida and does it mean I\'m safe from flooding?',
-    answer: 'Zone X is FEMA\'s designation for areas with moderate to low flood risk — defined as areas with less than a 1% annual chance of flooding (also called the "500-year flood" zone). Being in Zone X means your flood risk is lower than Zone AE or VE properties, but it does not mean zero risk. Extreme rainfall events, storm surge from major hurricanes, and sea level rise can all cause flooding in Zone X properties.'
+    question: "What is Zone X in Florida and does it mean I\'m safe from flooding?",
+    answer: "Zone X is FEMA\'s designation for areas with moderate to low flood risk — defined as areas with less than a 1% annual chance of flooding (also called the \"500-year flood\" zone). Being in Zone X means your flood risk is lower than Zone AE or VE properties, but it does not mean zero risk. Extreme rainfall events, storm surge from major hurricanes, and sea level rise can all cause flooding in Zone X properties."
   },
   {
     question: 'How much does flood insurance cost for a Zone X property in Florida?',
     answer: 'Flood insurance for Zone X properties is significantly cheaper than for high-risk zones. NFIP preferred risk policies for Zone X properties typically cost $400-$900 per year for $250,000 in building coverage. Private flood insurance for Zone X properties can be even cheaper — sometimes $300-$600 per year. The cost is low enough that most Zone X Florida homeowners should seriously consider it.'
   },
   {
-    question: 'Is flood insurance required if I\'m not in a flood zone in Florida?',
-    answer: 'No. Flood insurance is only required by lenders for properties in high-risk flood zones (Zone AE, VE, and similar designations) with federally-backed mortgages. If you\'re in Zone X and your lender doesn\'t require it, flood insurance is optional. However, "optional" doesn\'t mean "unnecessary" — it means the decision is yours to make based on your risk tolerance and financial situation.'
+    question: "Is flood insurance required if I\'m not in a flood zone in Florida?",
+    answer: "No. Flood insurance is only required by lenders for properties in high-risk flood zones (Zone AE, VE, and similar designations) with federally-backed mortgages. If you\'re in Zone X and your lender doesn\'t require it, flood insurance is optional. However, \"optional\" doesn\'t mean \"unnecessary\" — it means the decision is yours to make based on your risk tolerance and financial situation."
   },
   {
     question: 'Can my flood zone change in Florida?',
-    answer: 'Yes. FEMA regularly updates its Flood Insurance Rate Maps (FIRMs). Properties that were in Zone X can be remapped into Zone AE or other higher-risk designations, which would make flood insurance required if you have a federally-backed mortgage. South Florida\'s flood maps have been updated multiple times in recent years as FEMA incorporates new data on sea level rise and storm surge modeling.'
+    answer: "Yes. FEMA regularly updates its Flood Insurance Rate Maps (FIRMs). Properties that were in Zone X can be remapped into Zone AE or other higher-risk designations, which would make flood insurance required if you have a federally-backed mortgage. South Florida\'s flood maps have been updated multiple times in recent years as FEMA incorporates new data on sea level rise and storm surge modeling."
   },
   {
     question: 'What kind of flooding does homeowners insurance cover in Florida?',

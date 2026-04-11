@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the single most effective way to lower my Florida home insurance premium?',
-    answer: 'For most Florida homeowners, getting a wind mitigation inspection is the single highest-ROI action. A $150-$250 inspection can generate credits that reduce your windstorm premium by 20-45%, saving $500-$2,000 per year. The inspection is valid for 5 years and must be honored by any Florida carrier. If you haven\'t had one in the past 5 years, this is your first call to make.'
+    answer: "For most Florida homeowners, getting a wind mitigation inspection is the single highest-ROI action. A $150-$250 inspection can generate credits that reduce your windstorm premium by 20-45%, saving $500-$2,000 per year. The inspection is valid for 5 years and must be honored by any Florida carrier. If you haven\'t had one in the past 5 years, this is your first call to make."
   },
   {
     question: 'How much can impact windows save me on home insurance in Florida?',
-    answer: 'Impact-resistant windows and doors that meet Florida\'s High Velocity Hurricane Zone (HVHZ) standards can reduce your windstorm premium by $800-$2,500 per year, depending on your home\'s size and location. The savings are generated through opening protection credits on your wind mitigation report. Impact windows also reduce your windstorm deductible exposure by making your home more resistant to storm damage.'
+    answer: "Impact-resistant windows and doors that meet Florida\'s High Velocity Hurricane Zone (HVHZ) standards can reduce your windstorm premium by $800-$2,500 per year, depending on your home\'s size and location. The savings are generated through opening protection credits on your wind mitigation report. Impact windows also reduce your windstorm deductible exposure by making your home more resistant to storm damage."
   },
   {
     question: 'Will shopping my insurance every year actually save me money in Florida?',
-    answer: 'Yes — significantly. Florida\'s insurance market is unusually volatile. Carriers enter and exit the market, change their underwriting criteria, and adjust their rates dramatically from year to year. A carrier that was the cheapest option for your home last year may be 30-40% more expensive this year. Shopping your coverage 60-90 days before your renewal date every year is one of the most reliable ways to avoid overpaying.'
+    answer: "Yes — significantly. Florida\'s insurance market is unusually volatile. Carriers enter and exit the market, change their underwriting criteria, and adjust their rates dramatically from year to year. A carrier that was the cheapest option for your home last year may be 30-40% more expensive this year. Shopping your coverage 60-90 days before your renewal date every year is one of the most reliable ways to avoid overpaying."
   },
   {
     question: 'Does a new roof really lower my home insurance in Florida?',
-    answer: 'Yes, dramatically. A new roof is one of the most impactful factors in Florida home insurance pricing. A roof replaced in the past 5 years can reduce your premium by $1,000-$3,000 per year compared to a 15+ year old roof. Beyond the premium savings, a new roof also opens up the full private insurance market — many carriers won\'t write policies for homes with older roofs, limiting your options and your ability to shop for the best rate.'
+    answer: "Yes, dramatically. A new roof is one of the most impactful factors in Florida home insurance pricing. A roof replaced in the past 5 years can reduce your premium by $1,000-$3,000 per year compared to a 15+ year old roof. Beyond the premium savings, a new roof also opens up the full private insurance market — many carriers won\'t write policies for homes with older roofs, limiting your options and your ability to shop for the best rate."
   },
   {
     question: 'Can I lower my Florida home insurance by increasing my deductible?',
-    answer: 'Yes. Raising your standard deductible from $500 to $2,500 can save 10-20% on the non-wind portion of your premium. Raising your windstorm deductible from 2% to 5% can save $300-$800 per year. However, this strategy only makes sense if you have sufficient emergency savings to cover the higher deductible. Never raise your deductible to a level you couldn\'t realistically pay out of pocket after a loss.'
+    answer: "Yes. Raising your standard deductible from $500 to $2,500 can save 10-20% on the non-wind portion of your premium. Raising your windstorm deductible from 2% to 5% can save $300-$800 per year. However, this strategy only makes sense if you have sufficient emergency savings to cover the higher deductible. Never raise your deductible to a level you couldn\'t realistically pay out of pocket after a loss."
   },
 ]
 

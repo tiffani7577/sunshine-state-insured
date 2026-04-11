@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: 'How much can I save on my insurance with a wind mitigation inspection in Broward County?',
-    answer: 'Savings vary based on your home\'s construction features, but Fort Lauderdale homeowners typically save between $500 and $2,000 per year. Homes with hip roofs, impact-resistant windows and doors, and secondary water resistance (SWR) features tend to see the largest credits. The average Broward County homeowner saves approximately $800-$1,200 annually after a wind mitigation inspection.'
+    answer: "Savings vary based on your home\'s construction features, but Fort Lauderdale homeowners typically save between $500 and $2,000 per year. Homes with hip roofs, impact-resistant windows and doors, and secondary water resistance (SWR) features tend to see the largest credits. The average Broward County homeowner saves approximately $800-$1,200 annually after a wind mitigation inspection."
   },
   {
     question: 'What does a wind mitigation inspector look for?',
@@ -33,11 +33,11 @@ const faqs = [
   },
   {
     question: 'Do I need a wind mitigation inspection if my home was built after 2002?',
-    answer: 'Yes — and you\'re likely to benefit significantly. Homes built after Florida\'s 2002 building code updates are required to have many wind-resistant features, but your insurance carrier doesn\'t know that unless you prove it with an inspection. Many post-2002 Fort Lauderdale homeowners are leaving hundreds of dollars per year on the table by not having an inspection on file with their carrier.'
+    answer: "Yes — and you\'re likely to benefit significantly. Homes built after Florida\'s 2002 building code updates are required to have many wind-resistant features, but your insurance carrier doesn\'t know that unless you prove it with an inspection. Many post-2002 Fort Lauderdale homeowners are leaving hundreds of dollars per year on the table by not having an inspection on file with their carrier."
   },
   {
     question: 'How do I find a licensed wind mitigation inspector in Fort Lauderdale?',
-    answer: 'You can find licensed inspectors through the Florida Department of Business and Professional Regulation (DBPR) license lookup tool, through your insurance agent\'s referrals, or through the Florida Association of Building Inspectors. Make sure any inspector you hire holds a current Florida license. Avoid inspectors who offer unusually low prices (under $100) as they may cut corners on the inspection.'
+    answer: "You can find licensed inspectors through the Florida Department of Business and Professional Regulation (DBPR) license lookup tool, through your insurance agent\'s referrals, or through the Florida Association of Building Inspectors. Make sure any inspector you hire holds a current Florida license. Avoid inspectors who offer unusually low prices (under $100) as they may cut corners on the inspection."
   },
 ]
 

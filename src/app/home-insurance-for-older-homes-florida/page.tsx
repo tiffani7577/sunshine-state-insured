@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What age home is considered "old" by Florida insurance carriers?',
-    answer: 'Most Florida carriers begin applying additional scrutiny to homes built before 2002, when Florida\'s current building code was implemented. Homes built before 1994 (pre-Hurricane Andrew code) face the most significant underwriting challenges. Homes built before 1980 may require a 4-point inspection before any carrier will provide a quote, and some carriers won\'t insure homes over 40 years old at all.'
+    answer: "Most Florida carriers begin applying additional scrutiny to homes built before 2002, when Florida\'s current building code was implemented. Homes built before 1994 (pre-Hurricane Andrew code) face the most significant underwriting challenges. Homes built before 1980 may require a 4-point inspection before any carrier will provide a quote, and some carriers won\'t insure homes over 40 years old at all."
   },
   {
     question: 'What is a 4-point inspection and do I need one for my older Florida home?',
-    answer: 'A 4-point inspection evaluates four key systems of your home: the roof, electrical, plumbing, and HVAC. It\'s required by most Florida carriers for homes over 20-25 years old before they\'ll provide a quote. The inspection costs $100-$200 and must be performed by a licensed Florida inspector. If any of the four systems are in poor condition, you may need to make repairs before coverage is available.'
+    answer: "A 4-point inspection evaluates four key systems of your home: the roof, electrical, plumbing, and HVAC. It\'s required by most Florida carriers for homes over 20-25 years old before they\'ll provide a quote. The inspection costs $100-$200 and must be performed by a licensed Florida inspector. If any of the four systems are in poor condition, you may need to make repairs before coverage is available."
   },
   {
     question: 'What electrical systems will disqualify my older Florida home from insurance?',
-    answer: 'Several older electrical systems are considered uninsurable by most Florida carriers: knob-and-tube wiring (pre-1940s), aluminum wiring (common in 1960s-1970s homes), Federal Pacific Electric (FPE) Stab-Lok panels, and Zinsco/Sylvania panels. These systems have documented safety issues and fire risk. If your home has any of these, you\'ll likely need to upgrade the electrical system before most carriers will insure you.'
+    answer: "Several older electrical systems are considered uninsurable by most Florida carriers: knob-and-tube wiring (pre-1940s), aluminum wiring (common in 1960s-1970s homes), Federal Pacific Electric (FPE) Stab-Lok panels, and Zinsco/Sylvania panels. These systems have documented safety issues and fire risk. If your home has any of these, you\'ll likely need to upgrade the electrical system before most carriers will insure you."
   },
   {
     question: 'Can I get replacement cost coverage for my older Florida home?',
-    answer: 'It depends on the carrier and your home\'s condition. Some carriers will offer replacement cost coverage for older homes in good condition. Others will only offer Actual Cash Value (ACV) coverage, which deducts for depreciation. For a 40-year-old home, ACV coverage could pay significantly less than what it would cost to rebuild. Ask specifically about replacement cost vs. ACV when comparing quotes.'
+    answer: "It depends on the carrier and your home\'s condition. Some carriers will offer replacement cost coverage for older homes in good condition. Others will only offer Actual Cash Value (ACV) coverage, which deducts for depreciation. For a 40-year-old home, ACV coverage could pay significantly less than what it would cost to rebuild. Ask specifically about replacement cost vs. ACV when comparing quotes."
   },
   {
     question: 'Is Citizens Insurance a good option for older Florida homes?',
-    answer: 'Citizens Insurance is often the best or only option for older Florida homes that don\'t qualify for private market coverage. Citizens has more flexible underwriting criteria for older homes than most private carriers, though it still requires a 4-point inspection for homes over 30 years old and has its own eligibility requirements. For many owners of older Florida homes, Citizens is a legitimate long-term solution, not just a last resort.'
+    answer: "Citizens Insurance is often the best or only option for older Florida homes that don\'t qualify for private market coverage. Citizens has more flexible underwriting criteria for older homes than most private carriers, though it still requires a 4-point inspection for homes over 30 years old and has its own eligibility requirements. For many owners of older Florida homes, Citizens is a legitimate long-term solution, not just a last resort."
   },
 ]
 

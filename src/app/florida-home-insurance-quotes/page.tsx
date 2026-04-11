@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What information do I need to get a Florida home insurance quote?',
-    answer: 'To get an accurate quote you\'ll need: your home\'s address and year built, square footage and construction type (frame, masonry, or mixed), roof age and material, your current coverage amounts and deductibles, any recent claims in the past 5 years, and your wind mitigation inspection report if you have one. Having your wind mitigation report ready before you shop can significantly reduce your quoted premium.',
+    answer: "To get an accurate quote you\'ll need: your home\'s address and year built, square footage and construction type (frame, masonry, or mixed), roof age and material, your current coverage amounts and deductibles, any recent claims in the past 5 years, and your wind mitigation inspection report if you have one. Having your wind mitigation report ready before you shop can significantly reduce your quoted premium.",
   },
   {
     question: 'How many quotes should I get for Florida home insurance?',
@@ -33,11 +33,11 @@ const faqs = [
   },
   {
     question: 'Why are Florida home insurance quotes so much higher than other states?',
-    answer: 'Florida\'s premiums are driven by four factors: (1) Hurricane exposure — approximately 77% of Floridians live in hurricane-vulnerable areas; (2) Historical litigation abuse — Florida accounted for 79% of all U.S. homeowners insurance lawsuits despite 9% of claims, though 2022–2023 reforms have begun to address this; (3) Reinsurance costs — insurers must buy their own insurance, and Florida\'s risk makes that expensive; (4) Roof replacement costs — Florida\'s heat, humidity, and storm exposure accelerate roof deterioration.',
+    answer: "Florida\'s premiums are driven by four factors: (1) Hurricane exposure — approximately 77% of Floridians live in hurricane-vulnerable areas; (2) Historical litigation abuse — Florida accounted for 79% of all U.S. homeowners insurance lawsuits despite 9% of claims, though 2022–2023 reforms have begun to address this; (3) Reinsurance costs — insurers must buy their own insurance, and Florida\'s risk makes that expensive; (4) Roof replacement costs — Florida\'s heat, humidity, and storm exposure accelerate roof deterioration.",
   },
   {
     question: 'What is the best way to lower my Florida home insurance quote?',
-    answer: 'The single most impactful action is getting a wind mitigation inspection before you shop. A certified inspector documents your roof\'s storm resistance features, and this report can reduce your wind premium by 15–45%. Other effective strategies: install hurricane shutters or impact windows, raise your deductible, bundle with auto insurance, and work with an independent agent who can access multiple carriers.',
+    answer: "The single most impactful action is getting a wind mitigation inspection before you shop. A certified inspector documents your roof\'s storm resistance features, and this report can reduce your wind premium by 15–45%. Other effective strategies: install hurricane shutters or impact windows, raise your deductible, bundle with auto insurance, and work with an independent agent who can access multiple carriers.",
   },
 ]
 

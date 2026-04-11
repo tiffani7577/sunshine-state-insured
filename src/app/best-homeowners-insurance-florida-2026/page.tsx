@@ -21,27 +21,27 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: 'What is the average cost of homeowners insurance in Florida in 2026?',
-    answer: 'The average Florida homeowner pays $5,838 per year for a $300,000 dwelling policy — 141% more than the national average of $2,424. However, rates vary dramatically by county, carrier, and home characteristics. State Farm\'s Florida average is approximately $2,090/year, less than half the state average. The difference comes down to your home\'s age, roof condition, location, and which carrier you choose.',
+    answer: "The average Florida homeowner pays $5,838 per year for a $300,000 dwelling policy — 141% more than the national average of $2,424. However, rates vary dramatically by county, carrier, and home characteristics. State Farm\'s Florida average is approximately $2,090/year, less than half the state average. The difference comes down to your home\'s age, roof condition, location, and which carrier you choose.",
   },
   {
     question: 'Which company has the cheapest homeowners insurance in Florida?',
-    answer: 'Based on Bankrate\'s analysis of Quadrant Information Services data (updated 2025), State Farm has the lowest average premium in Florida at approximately $2,090/year for $300,000 in dwelling coverage. However, State Farm has limited availability in some Florida counties and is not writing new policies in all areas. Tower Hill, Kin Insurance, and Security First Financial are also competitive options depending on your location and property type.',
+    answer: "Based on Bankrate\'s analysis of Quadrant Information Services data (updated 2025), State Farm has the lowest average premium in Florida at approximately $2,090/year for $300,000 in dwelling coverage. However, State Farm has limited availability in some Florida counties and is not writing new policies in all areas. Tower Hill, Kin Insurance, and Security First Financial are also competitive options depending on your location and property type.",
   },
   {
     question: 'Does Florida homeowners insurance cover hurricane damage?',
-    answer: 'Standard Florida homeowners policies cover wind damage from hurricanes, but NOT flood damage. Flood coverage requires a separate policy through FEMA\'s National Flood Insurance Program (NFIP) or a private flood insurer. Most Florida policies also carry a separate hurricane deductible — typically 2–5% of your dwelling coverage — which applies instead of your standard deductible when a named storm causes damage. On a $300,000 home, a 2% hurricane deductible means you pay the first $6,000 out of pocket.',
+    answer: "Standard Florida homeowners policies cover wind damage from hurricanes, but NOT flood damage. Flood coverage requires a separate policy through FEMA\'s National Flood Insurance Program (NFIP) or a private flood insurer. Most Florida policies also carry a separate hurricane deductible — typically 2–5% of your dwelling coverage — which applies instead of your standard deductible when a named storm causes damage. On a $300,000 home, a 2% hurricane deductible means you pay the first $6,000 out of pocket.",
   },
   {
     question: 'What is Citizens Insurance and should I use it?',
-    answer: 'Citizens Property Insurance Corporation is Florida\'s state-backed insurer of last resort. You qualify if no private insurer will cover your home, or if private quotes are more than 20% higher than Citizens\' rate. Citizens is not ideal if private alternatives exist — if Citizens cannot pay all claims after a major storm, it can levy assessments on all Florida policyholders, including those not insured by Citizens. Always compare private market options first.',
+    answer: "Citizens Property Insurance Corporation is Florida\'s state-backed insurer of last resort. You qualify if no private insurer will cover your home, or if private quotes are more than 20% higher than Citizens\' rate. Citizens is not ideal if private alternatives exist — if Citizens cannot pay all claims after a major storm, it can levy assessments on all Florida policyholders, including those not insured by Citizens. Always compare private market options first.",
   },
   {
     question: 'How can I lower my Florida homeowners insurance premium?',
-    answer: 'The most effective strategies: (1) Get a wind mitigation inspection — can reduce your wind premium by 15–45%; (2) Install hurricane shutters or impact-resistant windows; (3) Upgrade your roof — newer roofs with hip geometry cost significantly less to insure; (4) Raise your deductible from $1,000 to $2,500 — saves 10–15%; (5) Bundle home and auto with the same carrier — saves 5–15%; (6) Shop every year — Florida\'s market changes rapidly and loyalty rarely pays.',
+    answer: "The most effective strategies: (1) Get a wind mitigation inspection — can reduce your wind premium by 15–45%; (2) Install hurricane shutters or impact-resistant windows; (3) Upgrade your roof — newer roofs with hip geometry cost significantly less to insure; (4) Raise your deductible from $1,000 to $2,500 — saves 10–15%; (5) Bundle home and auto with the same carrier — saves 5–15%; (6) Shop every year — Florida\'s market changes rapidly and loyalty rarely pays.",
   },
   {
     question: 'What AM Best rating should I look for in a Florida insurance company?',
-    answer: 'Look for carriers with an AM Best financial strength rating of A- or better. This indicates the insurer has adequate financial resources to pay claims. In Florida\'s volatile market, carrier financial strength matters enormously — several Florida insurers have become insolvent in recent years. Avoid carriers rated below B+ unless you have no other options.',
+    answer: "Look for carriers with an AM Best financial strength rating of A- or better. This indicates the insurer has adequate financial resources to pay claims. In Florida\'s volatile market, carrier financial strength matters enormously — several Florida insurers have become insolvent in recent years. Avoid carriers rated below B+ unless you have no other options.",
   },
 ]
 

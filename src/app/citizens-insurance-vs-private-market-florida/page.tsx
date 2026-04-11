@@ -25,15 +25,15 @@ const faqs = [
   },
   {
     question: 'Is Citizens Insurance financially stable?',
-    answer: 'Citizens is backed by the State of Florida, which gives it a unique form of financial stability. However, Citizens is not backed by the state\'s general revenue fund — in the event of a major shortfall after a catastrophic storm, Citizens can levy surcharges on all Florida policyholders (not just Citizens customers) to cover losses. This is called a Citizens assessment.'
+    answer: "Citizens is backed by the State of Florida, which gives it a unique form of financial stability. However, Citizens is not backed by the state\'s general revenue fund — in the event of a major shortfall after a catastrophic storm, Citizens can levy surcharges on all Florida policyholders (not just Citizens customers) to cover losses. This is called a Citizens assessment."
   },
   {
     question: 'What is the Citizens Insurance coverage limit in Florida?',
-    answer: 'As of 2026, Citizens Insurance has a maximum coverage limit of $700,000 for personal lines residential policies in most counties, and $1,000,000 in Miami-Dade, Broward, and Palm Beach counties. If your home\'s replacement cost exceeds these limits, you will need to supplement with an excess policy or find private market coverage.'
+    answer: "As of 2026, Citizens Insurance has a maximum coverage limit of $700,000 for personal lines residential policies in most counties, and $1,000,000 in Miami-Dade, Broward, and Palm Beach counties. If your home\'s replacement cost exceeds these limits, you will need to supplement with an excess policy or find private market coverage."
   },
   {
     question: 'Does Citizens Insurance cover flood damage?',
-    answer: 'No. Citizens Insurance does not cover flood damage, just like most standard homeowners policies. Flood coverage requires a separate policy through the National Flood Insurance Program (NFIP) or a private flood insurer. This is a critical gap many Florida homeowners don\'t discover until after a flood event.'
+    answer: "No. Citizens Insurance does not cover flood damage, just like most standard homeowners policies. Flood coverage requires a separate policy through the National Flood Insurance Program (NFIP) or a private flood insurer. This is a critical gap many Florida homeowners don\'t discover until after a flood event."
   },
   {
     question: 'How do I apply for Citizens Insurance in Florida?',

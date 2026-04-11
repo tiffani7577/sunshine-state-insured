@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     question: 'Can I get a roof inspection instead of replacing my roof?',
-    answer: 'Yes, and this is often the right first step. A licensed Florida roofing contractor or a wind mitigation inspector can assess your roof\'s condition. If the inspection shows the roof is structurally sound and has significant remaining useful life, some carriers will accept the inspection report and continue coverage. The inspection typically costs $150-$300 and is worth every penny before spending $15,000+ on a new roof.'
+    answer: "Yes, and this is often the right first step. A licensed Florida roofing contractor or a wind mitigation inspector can assess your roof\'s condition. If the inspection shows the roof is structurally sound and has significant remaining useful life, some carriers will accept the inspection report and continue coverage. The inspection typically costs $150-$300 and is worth every penny before spending $15,000+ on a new roof."
   },
 ]
 

@@ -25,18 +25,18 @@ const faqs = [
   },
   {
     question: 'Can my Florida insurance carrier drop me after I file a claim?',
-    answer: 'Florida law prohibits carriers from non-renewing a policy solely because you filed a single claim. However, carriers can consider your claims history as part of their overall underwriting review. If you\'ve filed multiple claims within a 3-5 year period, carriers may choose not to renew. The non-renewal notice must state the reason for non-renewal.'
+    answer: "Florida law prohibits carriers from non-renewing a policy solely because you filed a single claim. However, carriers can consider your claims history as part of their overall underwriting review. If you\'ve filed multiple claims within a 3-5 year period, carriers may choose not to renew. The non-renewal notice must state the reason for non-renewal."
   },
   {
-    question: 'What is Citizens Insurance and can I get it if I\'m dropped?',
-    answer: 'Citizens Property Insurance Corporation is Florida\'s state-backed insurer of last resort. If you\'ve been dropped by a private carrier and cannot find comparable coverage in the private market within 15% of Citizens\' premium, you are eligible for Citizens. You must apply through a licensed Florida insurance agent who is appointed with Citizens.'
+    question: "What is Citizens Insurance and can I get it if I\'m dropped?",
+    answer: "Citizens Property Insurance Corporation is Florida\'s state-backed insurer of last resort. If you\'ve been dropped by a private carrier and cannot find comparable coverage in the private market within 15% of Citizens\' premium, you are eligible for Citizens. You must apply through a licensed Florida insurance agent who is appointed with Citizens."
   },
   {
     question: 'Will being dropped by my insurance carrier affect my ability to get new coverage?',
     answer: 'A non-renewal (carrier choosing not to renew at the end of your policy term) is different from a cancellation and is less likely to affect your ability to get new coverage. However, if the non-renewal was due to claims history, some carriers may view that unfavorably. Being transparent with new carriers about your situation and working with an independent agent who can access multiple markets is the best approach.'
   },
   {
-    question: 'What if I can\'t find any carrier willing to insure my home?',
+    question: "What if I can\'t find any carrier willing to insure my home?",
     answer: 'If you genuinely cannot find coverage in the private market, Citizens Insurance is available as the insurer of last resort. Citizens is required by Florida law to provide coverage to eligible Florida homeowners who cannot find private market coverage. There is no scenario where a Florida homeowner is completely without options — though the options may be more limited and more expensive for high-risk properties.'
   },
 ]

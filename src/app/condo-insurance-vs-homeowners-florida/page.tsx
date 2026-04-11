@@ -20,20 +20,20 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    question: 'What does a Florida condo association\'s master policy cover?',
-    answer: 'Florida condo association master policies typically cover the building structure, common areas, and shared amenities. However, what\'s covered inside your individual unit depends on whether your association has an "all-in" (also called "all-inclusive") or "bare walls" master policy. All-in policies cover fixtures, flooring, and cabinets inside your unit. Bare walls policies only cover the structure up to the bare drywall — everything inside is your responsibility. You must read your association\'s master policy to know which type you have.'
+    question: "What does a Florida condo association\'s master policy cover?",
+    answer: "Florida condo association master policies typically cover the building structure, common areas, and shared amenities. However, what\'s covered inside your individual unit depends on whether your association has an \"all-in\" (also called \"all-inclusive\") or \"bare walls\" master policy. All-in policies cover fixtures, flooring, and cabinets inside your unit. Bare walls policies only cover the structure up to the bare drywall — everything inside is your responsibility. You must read your association\'s master policy to know which type you have."
   },
   {
     question: 'What is HO-6 insurance and do I need it as a Florida condo owner?',
-    answer: 'HO-6 is the standard condo owner\'s insurance policy. It covers your personal property, personal liability, loss of use (additional living expenses if your unit is uninhabitable), and the interior of your unit to the extent not covered by your association\'s master policy. In Florida, HO-6 insurance is not legally required but is almost always required by your mortgage lender and strongly recommended for all condo owners regardless of mortgage status.'
+    answer: "HO-6 is the standard condo owner\'s insurance policy. It covers your personal property, personal liability, loss of use (additional living expenses if your unit is uninhabitable), and the interior of your unit to the extent not covered by your association\'s master policy. In Florida, HO-6 insurance is not legally required but is almost always required by your mortgage lender and strongly recommended for all condo owners regardless of mortgage status."
   },
   {
     question: 'What is a loss assessment and does my condo insurance cover it?',
-    answer: 'A loss assessment occurs when your condo association\'s master policy doesn\'t fully cover a loss, and the association assesses each unit owner for a share of the uncovered cost. For example, if a hurricane causes $2 million in damage to the building but the master policy only covers $1.5 million, the association might assess each of 100 unit owners $5,000. Most HO-6 policies include loss assessment coverage, typically $1,000-$50,000. Make sure your policy has adequate loss assessment coverage — Florida condo owners are particularly vulnerable to large assessments after hurricanes.'
+    answer: "A loss assessment occurs when your condo association\'s master policy doesn\'t fully cover a loss, and the association assesses each unit owner for a share of the uncovered cost. For example, if a hurricane causes $2 million in damage to the building but the master policy only covers $1.5 million, the association might assess each of 100 unit owners $5,000. Most HO-6 policies include loss assessment coverage, typically $1,000-$50,000. Make sure your policy has adequate loss assessment coverage — Florida condo owners are particularly vulnerable to large assessments after hurricanes."
   },
   {
     question: 'How does flood insurance work for Florida condo owners?',
-    answer: 'Flood insurance for condos is complex. Your condo association may have a master flood insurance policy that covers the building structure. However, it typically does not cover your personal property or the interior of your unit. As a condo owner, you can purchase your own NFIP or private flood insurance policy to cover your unit\'s contents and interior. If your building is in a high-risk flood zone, your association is required to have flood insurance on the building.'
+    answer: "Flood insurance for condos is complex. Your condo association may have a master flood insurance policy that covers the building structure. However, it typically does not cover your personal property or the interior of your unit. As a condo owner, you can purchase your own NFIP or private flood insurance policy to cover your unit\'s contents and interior. If your building is in a high-risk flood zone, your association is required to have flood insurance on the building."
   },
   {
     question: 'What changed for Florida condo owners after the Surfside collapse?',
