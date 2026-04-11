@@ -11,6 +11,11 @@ const guides = [
   { href: '/new-homeowner-insurance-florida-first-time-buyer', label: 'First-Time Buyer Guide' },
   { href: '/hurricane-insurance-claims-florida', label: 'Hurricane Claims Guide' },
   { href: '/affordable-home-insurance-florida', label: 'Affordable Home Insurance' },
+  { href: '/mobile-home-insurance-florida', label: 'Mobile Home Insurance' },
+  { href: '/4-point-inspection-florida-home-insurance', label: '4-Point Inspection Guide' },
+  { href: '/how-to-get-off-citizens-insurance-florida', label: 'How to Get Off Citizens' },
+  { href: '/landlord-insurance-florida', label: 'Landlord Insurance Florida' },
+  { href: '/fixed-annuity-rates-florida', label: 'Fixed Annuity Rates Florida' },
 ]
 
 const coverage = [
@@ -23,6 +28,11 @@ const coverage = [
   { href: '/home-insurance-broward-county', label: 'Home Insurance Broward County' },
   { href: '/florida-home-insurance-quotes', label: 'Florida Home Insurance Quotes' },
   { href: '/best-homeowners-insurance-florida-2026', label: 'Best Homeowners Insurance 2026' },
+  { href: '/what-does-florida-homeowners-insurance-cover', label: 'What Does Insurance Cover?' },
+  { href: '/home-insurance-cast-iron-pipes-florida', label: 'Cast Iron Pipes Insurance' },
+  { href: '/home-insurance-aluminum-wiring-florida', label: 'Aluminum Wiring Insurance' },
+  { href: '/home-insurance-solar-panels-florida', label: 'Solar Panels & Insurance' },
+  { href: '/home-insurance-pool-florida', label: 'Pool Insurance Florida' },
 ]
 
 export default function Footer() {

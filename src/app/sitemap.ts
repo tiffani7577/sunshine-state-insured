@@ -28,6 +28,17 @@ const pages = [
   { url: '/florida-home-insurance-quotes', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/home-insurance-broward-county', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/thank-you', priority: 0.3, changeFrequency: 'yearly' as const },
+  // New pages added April 2026
+  { url: '/mobile-home-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/4-point-inspection-florida-home-insurance', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/how-to-get-off-citizens-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/landlord-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/what-does-florida-homeowners-insurance-cover', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/home-insurance-cast-iron-pipes-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/home-insurance-aluminum-wiring-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/home-insurance-solar-panels-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/home-insurance-pool-florida', priority: 0.9, changeFrequency: 'monthly' as const },
+  { url: '/fixed-annuity-rates-florida', priority: 0.8, changeFrequency: 'monthly' as const },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
