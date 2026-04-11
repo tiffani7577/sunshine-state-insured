@@ -59,6 +59,11 @@ export default function Page() {
       faqs={faqs}
       relatedPages={relatedPages}
     >
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+        <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide mb-1">Quick Answer</p>
+        <p className="text-gray-800 text-base">Florida home insurance costs an average of <strong>$8,292/year</strong> — nearly 3x the national average — because of hurricane risk, a reinsurance crisis, excessive litigation, carrier exits, aging roofs, construction inflation, and coastal location. The fastest way to lower your premium: get a wind mitigation inspection ($150–$200), which can cut your bill by 20–45%.</p>
+      </div>
+
       <div className="stat-callout">
         <div className="number">$8,292</div>
         <p className="mt-1 text-teal-100 text-sm">Average Florida home insurance premium in 2025 — the highest in the nation. <em>(Insurify 2026 Florida Home Insurance Report)</em></p>
@@ -68,11 +73,11 @@ export default function Page() {
 
       <p>The answer is not simple. Florida's home insurance crisis is the result of seven compounding factors that have been building for decades. Understanding them is the first step toward doing something about your premium.</p>
 
-      <h2>1. Hurricane and Catastrophic Storm Risk</h2>
+      <h2>1. Why Does Hurricane Risk Make Florida Insurance So Expensive?</h2>
       <p>Florida is the most hurricane-prone state in the continental United States. Since 2017, Florida has been struck by Hurricanes Irma, Michael, Ian, and Idalia — each causing billions in insured losses. Carriers price premiums based on expected future losses, and after a string of devastating storms, those expectations are high.</p>
       <p>What makes Florida uniquely expensive is not just the frequency of storms but their severity. Hurricane Ian alone caused an estimated $112 billion in total damages in 2022, making it the costliest hurricane in Florida history. When carriers pay out that kind of money, they raise premiums statewide to rebuild their reserves.</p>
 
-      <h2>2. The Reinsurance Crisis</h2>
+      <h2>2. What Is Reinsurance and Why Does It Drive Up My Premium?</h2>
       <p>Most Florida homeowners have never heard of reinsurance, but it is one of the biggest drivers of your premium. Reinsurance is insurance that insurance companies buy to protect themselves from catastrophic losses. When a major hurricane hits, your carrier doesn't pay all those claims out of pocket — their reinsurers cover a large portion.</p>
       <p>After the 2017-2022 storm cycle, global reinsurers dramatically increased what they charge Florida carriers. Reinsurance costs in Florida increased by 30-50% between 2021 and 2023. Florida carriers have no choice but to pass those costs directly to homeowners. <strong>Reinsurance alone accounts for an estimated 30-40% of your Florida home insurance premium.</strong></p>
 
@@ -80,7 +85,7 @@ export default function Page() {
       <p>Florida accounted for roughly 8% of all U.S. homeowner insurance claims but nearly 79% of all homeowner insurance lawsuits filed nationally in recent years. This extraordinary litigation rate was driven by a combination of Assignment of Benefits (AOB) abuse and attorney fee multipliers that made suing insurance companies extremely profitable for plaintiff attorneys.</p>
       <p>Contractors would convince homeowners to sign over their insurance benefits, then file inflated claims. When carriers denied or reduced payments, attorneys would sue — and Florida law allowed them to collect fees many times the actual disputed amount. Florida's 2022 and 2023 legislative reforms eliminated one-way attorney fees and restricted AOB agreements, which has begun to reduce litigation costs. However, the damage to carrier reserves from years of excessive litigation is still being priced into your premium.</p>
 
-      <h2>4. Carrier Exodus and Reduced Competition</h2>
+      <h2>4. Why Are Insurance Companies Leaving Florida?</h2>
       <p>When competition decreases, prices increase. Florida has lost more than 15 property insurance carriers since 2020 — including major names like Bankers Insurance, St. Johns Insurance, Avatar Property & Casualty, and Demotech-rated carriers that served hundreds of thousands of homeowners. Several more have stopped writing new policies in high-risk coastal counties.</p>
       <p>When carriers exit the market, the remaining carriers face less competitive pressure to keep prices low. Homeowners who lose their carrier are often forced into Citizens Insurance or the remaining private market at significantly higher rates.</p>
 
@@ -95,7 +100,7 @@ export default function Page() {
       <h2>7. South Florida's Unique Risk Profile</h2>
       <p>If you live in Broward, Miami-Dade, or Palm Beach County, you face an additional premium penalty for being in one of the highest-risk coastal zones in the country. Properties within 5 miles of the coast face dramatically higher windstorm exposure. The combination of dense population, high property values, and extreme hurricane exposure makes South Florida the most expensive insurance market in an already expensive state.</p>
 
-      <h2>What You Can Do About It</h2>
+      <h2>What Can I Do Right Now to Lower My Florida Home Insurance Premium?</h2>
       <p>Understanding why your premium is high is only useful if it leads to action. Here are the most impactful steps Florida homeowners can take right now:</p>
       <ul>
         <li><strong>Get a wind mitigation inspection.</strong> A $150-$200 inspection can qualify you for credits that reduce your premium by 20-45%. This is the single highest-ROI action most Florida homeowners can take.</li>

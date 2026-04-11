@@ -59,11 +59,16 @@ export default function Page() {
       faqs={faqs}
       relatedPages={relatedPages}
     >
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+        <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide mb-1">Quick Answer</p>
+        <p className="text-gray-800 text-base">If your Florida home insurance carrier dropped you, you have at least <strong>120 days</strong> before coverage ends. Immediately contact an independent agent, identify the reason (usually roof age, claims history, or carrier exit), and get quotes from Citizens Insurance and the private surplus lines market. You will not be left without options.</p>
+      </div>
+
       <p>You opened your mail and found a non-renewal notice from your Florida home insurance carrier. Your first reaction is probably panic — and that's understandable. But here's what you need to know immediately: <strong>you have options, you have time, and this is more common than you think.</strong></p>
 
       <p>Since 2020, more than 700,000 Florida homeowners have received non-renewal notices as carriers have exited the state or tightened their underwriting standards. If you're one of them, this guide walks you through exactly what to do, step by step.</p>
 
-      <h2>Step 1: Read the Notice Carefully</h2>
+      <h2>Step 1: What Does a Florida Non-Renewal Notice Mean?</h2>
       <p>Before you do anything else, read your non-renewal notice carefully. Florida law requires carriers to state the reason for non-renewal. Common reasons include:</p>
       <ul>
         <li><strong>Roof age:</strong> Your roof is over 15 years old (the most common reason in 2024-2026)</li>
@@ -78,7 +83,7 @@ export default function Page() {
       <p>Florida law requires carriers to provide at least <strong>120 days written notice</strong> before non-renewing a personal lines residential policy. This means you have at least four months to find new coverage. Do not wait until the last week — start shopping immediately, but don't panic.</p>
       <p>Note the exact date your current coverage ends. Mark it on your calendar. You need new coverage in place before that date — even a single day without coverage can create problems with your mortgage lender and leave you exposed.</p>
 
-      <h2>Step 3: Contact an Independent Insurance Agent Immediately</h2>
+      <h2>Step 3: Who Should I Call When My Florida Insurance Is Dropped?</h2>
       <p>This is the most important step. An independent insurance agent — one who works with multiple carriers rather than representing a single company — is your best resource in this situation. They can:</p>
       <ul>
         <li>Access quotes from dozens of Florida carriers simultaneously</li>

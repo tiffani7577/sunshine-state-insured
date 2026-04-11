@@ -59,13 +59,18 @@ export default function Page() {
       faqs={faqs}
       relatedPages={relatedPages}
     >
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+        <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide mb-1">Quick Answer</p>
+        <p className="text-gray-800 text-base">Citizens Insurance is Florida's state-backed insurer of last resort. It's the right choice if your roof is over 15 years old, you live in a high-risk coastal area, or private market quotes are more than 20% higher. Private market is better if your home is newer, your roof is under 10 years old, or you want broader coverage terms. Compare both every year — the market shifts constantly.</p>
+      </div>
+
       <p>Citizens Property Insurance Corporation is one of the most misunderstood entities in Florida's insurance landscape. Some homeowners treat it as a last resort to be avoided at all costs. Others assume it's automatically the best option because it's backed by the state. The truth is more nuanced — and understanding it could save you thousands of dollars or protect you from a catastrophic coverage gap.</p>
 
-      <h2>What Is Citizens Insurance?</h2>
+      <h2>What Is Citizens Insurance in Florida?</h2>
       <p>Citizens Property Insurance Corporation is a not-for-profit, state-created insurer established by the Florida Legislature in 2002. It was created to serve as the "insurer of last resort" — meaning it provides coverage for Florida homeowners who cannot find affordable coverage in the private market.</p>
       <p>As of 2026, Citizens insures approximately 1.2 million Florida properties, making it one of the largest property insurers in the state. Its growth over the past five years reflects the broader crisis in Florida's private insurance market: as private carriers have exited or restricted coverage, more homeowners have been pushed toward Citizens.</p>
 
-      <h2>How Citizens Differs from Private Carriers</h2>
+      <h2>How Is Citizens Insurance Different from Private Carriers?</h2>
       <p>Citizens is not a traditional insurance company. It operates under a different set of rules, constraints, and financial structures than private carriers. Understanding these differences is essential to making an informed decision.</p>
 
       <h3>Rate Increases Are Capped</h3>
@@ -80,7 +85,7 @@ export default function Page() {
       <h3>The Assessment Risk</h3>
       <p>This is the most misunderstood aspect of Citizens Insurance. Citizens is backed by the State of Florida, but not by the state's general revenue fund. If Citizens suffers losses that exceed its reserves after a major storm, it can levy surcharges — called "assessments" — on all Florida insurance policyholders, not just Citizens customers. In a worst-case scenario, every Florida homeowner and auto insurance policyholder could see their premiums increase to help fund Citizens' losses.</p>
 
-      <h2>When Citizens Is the Right Choice</h2>
+      <h2>When Should I Choose Citizens Insurance Over Private Market?</h2>
       <p>Despite its limitations, Citizens is genuinely the best option for many Florida homeowners. Here are the situations where Citizens typically makes sense:</p>
       <ul>
         <li><strong>Your home has a roof older than 15 years.</strong> Most private carriers won't insure homes with older roofs, or they charge prohibitively high premiums. Citizens has more flexible roof age requirements, making it often the only viable option for older homes.</li>
@@ -89,7 +94,7 @@ export default function Page() {
         <li><strong>Your home has had recent claims.</strong> Private carriers are increasingly reluctant to insure homes with recent claim history. Citizens has more standardized underwriting criteria.</li>
       </ul>
 
-      <h2>When Private Market Is the Right Choice</h2>
+      <h2>When Is the Private Market Better Than Citizens Insurance?</h2>
       <p>For many Florida homeowners — particularly those with newer homes, newer roofs, or properties outside the highest-risk coastal zones — the private market offers better value:</p>
       <ul>
         <li><strong>Better coverage terms.</strong> Many private carriers offer broader coverage, higher limits, and more favorable claims settlement terms than Citizens.</li>

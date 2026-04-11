@@ -59,15 +59,20 @@ export default function Page() {
       faqs={faqs}
       relatedPages={relatedPages}
     >
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+        <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide mb-1">Quick Answer</p>
+        <p className="text-gray-800 text-base">Can you get home insurance in Florida with a roof over 15 years old? <strong>Yes, but your options narrow significantly.</strong> Most private carriers stop writing new policies at 15 years. Your best options are: get a roof inspection (some carriers accept condition reports), shop surplus lines carriers, or apply to Citizens Insurance. A new roof saves $1,000–$3,000/year in premiums and reopens the full private market.</p>
+      </div>
+
       <p>If your Florida home has a roof that's 15 years old or older, you may have already received a non-renewal notice from your insurance carrier — or you're bracing for one. Roof age has become one of the most contentious issues in Florida's home insurance crisis, and the rules have changed dramatically in the past three years.</p>
 
       <p>This guide explains exactly what Florida carriers require, what your options are if you're being dropped, and how to make the right financial decision about your roof.</p>
 
-      <h2>Why Florida Carriers Are So Strict About Roof Age</h2>
+      <h2>Why Won't Florida Insurance Companies Cover Older Roofs?</h2>
       <p>Insurance is fundamentally about risk, and in Florida, your roof is the single biggest risk factor for your carrier. During a hurricane or severe windstorm, the roof is the first line of defense. An older roof — particularly one with aging asphalt shingles — is significantly more likely to fail under high winds, leading to water intrusion and catastrophic interior damage.</p>
       <p>Florida carriers have decades of claims data showing a clear correlation between roof age and claim frequency and severity. A home with a 20-year-old roof files claims at a dramatically higher rate than an identical home with a new roof. After years of absorbing these losses, carriers have responded by tightening their underwriting standards.</p>
 
-      <h2>The 15-Year Rule: What It Actually Means</h2>
+      <h2>What Is the 15-Year Roof Rule in Florida Insurance?</h2>
       <p>There is no single statewide rule that all carriers follow — each carrier sets its own underwriting guidelines. However, the industry standard that has emerged is roughly as follows:</p>
       <ul>
         <li><strong>Roofs under 10 years old:</strong> Generally insurable by most carriers at standard rates.</li>
@@ -82,7 +87,7 @@ export default function Page() {
       <p>This means if you have a 15-year-old asphalt shingle roof and a hurricane damages it, your carrier may only pay you the depreciated value of the roof — perhaps 40-50% of the replacement cost — rather than the full cost to replace it. You would be responsible for the difference out of pocket.</p>
       <p>Check your current policy carefully. If you see language about "ACV roof settlement" or "roof payment schedule," you may be subject to this limitation.</p>
 
-      <h2>Your Options If Your Carrier Is Dropping You</h2>
+      <h2>What Are My Options If My Florida Carrier Won't Insure My Old Roof?</h2>
 
       <h3>Option 1: Get a Roof Inspection First</h3>
       <p>Before spending $15,000+ on a new roof, get a professional inspection. A licensed Florida roofing contractor or wind mitigation inspector can assess your roof's actual condition. If the roof is structurally sound, has no missing shingles, no active leaks, and shows no signs of imminent failure, some carriers will accept an inspection report and continue coverage. This costs $150-$300 and takes a few days.</p>

@@ -59,9 +59,14 @@ export default function Page() {
       faqs={faqs}
       relatedPages={relatedPages}
     >
+      <div className="bg-blue-50 border-l-4 border-blue-600 p-4 rounded mb-6">
+        <p className="text-sm font-semibold text-blue-800 uppercase tracking-wide mb-1">Quick Answer</p>
+        <p className="text-gray-800 text-base">The fastest ways to lower your Florida home insurance premium: <strong>(1)</strong> Get a wind mitigation inspection ($150–$200, saves 20–45%), <strong>(2)</strong> shop the market 60–90 days before renewal, <strong>(3)</strong> replace your roof if it's over 15 years old (saves $1,000–$3,000/yr), <strong>(4)</strong> raise your standard deductible, <strong>(5)</strong> pay annually instead of monthly. Most homeowners can realistically save $500–$2,400/year.</p>
+      </div>
+
       <p>Florida homeowners paid an average of $8,292 per year for home insurance in 2025 — more than three times the national average of $2,400. If you're feeling the squeeze, you're not alone. But there are real, proven strategies that can meaningfully reduce your premium without sacrificing coverage. Here are nine of them, ranked roughly by impact.</p>
 
-      <h2>Strategy 1: Get a Wind Mitigation Inspection (Highest ROI)</h2>
+      <h2>Strategy 1: What Is a Wind Mitigation Inspection and How Much Can It Save?</h2>
       <p>A wind mitigation inspection evaluates your home's ability to withstand hurricane-force winds. The inspector examines your roof shape, roof covering, roof deck attachment, roof-to-wall connections, opening protection (windows and doors), and other wind-resistant features. The resulting report is submitted to your insurance carrier, which is required by Florida law to apply credits based on your home's features.</p>
       <p>The math is compelling: a $150-$250 inspection can generate annual premium savings of $500-$2,000. The inspection pays for itself in the first month. The report is valid for 5 years. If you haven't had one recently, this is the first call you should make.</p>
 
@@ -73,7 +78,7 @@ export default function Page() {
       <p>Your roof is the single most important factor in Florida home insurance pricing. A roof replaced in the past 5 years can save $1,000-$3,000 per year compared to a 15+ year old roof. Beyond the premium savings, a new roof opens up the full private insurance market — many carriers won't write policies for homes with older roofs, limiting your shopping options.</p>
       <p>If your roof is 12-15 years old, get it inspected. If it has significant remaining life, a certified roof inspector's report can sometimes satisfy carriers and extend your insurability. If it genuinely needs replacement, the insurance savings alone can justify a significant portion of the cost over time.</p>
 
-      <h2>Strategy 4: Shop the Market Every Year</h2>
+      <h2>Strategy 4: How Often Should I Shop My Florida Home Insurance?</h2>
       <p>Florida's insurance market is more volatile than any other state. Carriers change their rates dramatically year to year. The carrier that was cheapest for your home last year may be 30-40% more expensive this year. Set a calendar reminder to shop your coverage 60-90 days before your renewal date every year. Work with an independent agent who can access multiple carriers simultaneously.</p>
 
       <h2>Strategy 5: Bundle Home and Auto Insurance</h2>
