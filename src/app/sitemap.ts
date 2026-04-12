@@ -39,6 +39,7 @@ const pages = [
   { url: '/home-insurance-solar-panels-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/home-insurance-pool-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/fixed-annuity-rates-florida', priority: 0.8, changeFrequency: 'monthly' as const },
+  { url: '/resources', priority: 0.9, changeFrequency: 'weekly' as const },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {

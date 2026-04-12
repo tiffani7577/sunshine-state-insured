@@ -16,6 +16,7 @@ const guides = [
   { href: '/how-to-get-off-citizens-insurance-florida', label: 'How to Get Off Citizens' },
   { href: '/landlord-insurance-florida', label: 'Landlord Insurance Florida' },
   { href: '/fixed-annuity-rates-florida', label: 'Fixed Annuity Rates Florida' },
+  { href: '/resources', label: '→ All Guides & Resources' },
 ]
 
 const coverage = [
@@ -113,7 +114,7 @@ export default function Footer() {
             <a href="mailto:info@sunshinestateinsured.com" className="text-teal-400 text-xs hover:text-teal-200 transition-colors">info@sunshinestateinsured.com</a>
           </div>
           <p className="text-teal-500 text-xs max-w-xl">
-            <strong className="text-teal-400">Disclaimer:</strong> This site is for informational purposes only. We are not licensed insurance agents and do not sell insurance. We connect consumers with licensed insurance professionals. Always consult a licensed Florida insurance agent before making coverage decisions.
+            <strong className="text-teal-400">Disclaimer:</strong> This site is operated by Tiffani LeBlanc, FL DFS License #W942527, a licensed Florida insurance agent (2-14 and 2-15). Content is for informational purposes. Always review your specific policy with a licensed agent before making coverage decisions.
           </p>
         </div>
       </div>
