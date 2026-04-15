@@ -24,9 +24,7 @@ const pages = [
   { url: '/affordable-home-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/home-insurance-after-cancellation-florida', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/get-a-quote', priority: 0.8, changeFrequency: 'monthly' as const },
-  { url: '/best-homeowners-insurance-florida-2026', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/florida-home-insurance-quotes', priority: 0.9, changeFrequency: 'monthly' as const },
-  { url: '/home-insurance-broward-county', priority: 0.9, changeFrequency: 'monthly' as const },
   { url: '/thank-you', priority: 0.3, changeFrequency: 'yearly' as const },
   // New pages added April 2026
   { url: '/mobile-home-insurance-florida', priority: 0.9, changeFrequency: 'monthly' as const },

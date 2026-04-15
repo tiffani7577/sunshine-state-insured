@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import CallButton from '@/components/CallButton'
+
 
 export const dynamic = 'force-dynamic'
 
@@ -143,7 +143,6 @@ export default function ResourcesPage() {
         </div>
       </main>
       <Footer />
-      <CallButton />
     </>
   )
 }
