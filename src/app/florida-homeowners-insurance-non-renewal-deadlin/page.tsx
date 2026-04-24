@@ -363,4 +363,13 @@ export default function FloridaNonRenewalDeadlinePage() {
           <div className="space-y-6 mt-6">
             {faqItems.map((item) => (
               <div key={item.question} className="p-6 bg-white rounded-xl border border-gray-100 shadow-sm">
-                <h3 className="text-lg font-semibold text-[#1B3A4B]
+                <h3 className="text-lg font-semibold text-[#1B3A4B]">{item.question}</h3>
+                <p className="text-gray-700 leading-relaxed">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </article>
+    </main>
+  )
+}
